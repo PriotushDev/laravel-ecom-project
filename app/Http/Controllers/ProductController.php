@@ -55,4 +55,15 @@ class ProductController extends Controller
     {
         return view('admin.product.detail', ['product' => Product::find($id)]);
     }
+    public function edit($id)
+    {
+        return view('admin.product.edit', [
+            'categories'        => Category::all(),
+            'sub_categories'    => SubCategory::all(),
+            'brands'            => Brand::all(),
+            'units'             => Unit::all(),
+            'product'           => Product::find($id)
+        ]);
+    }
+
 }

@@ -16,7 +16,7 @@
                     </div>
                     <div class="card-body">
                         <p class="text-center text-success">{{session('message')}}</p>
-                        <form action="{{route('product.store')}}" method="POST" enctype="multipart/form-data">
+                        <form action="{{route('product.update', $product->id)}}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="mb-3">
                                 <label for="status" class="form-label">Category Name</label>
@@ -74,11 +74,11 @@
                             </div>
 
                             <div class="mb-3">
-                                <div class="input-group">
                                     <label for="exampleInputStockAmount" class="form-label">Product Price</label>
-                                    <input name="regurlar_price" type="number" class="form-control" placeholder="Enter regular  price" />
-                                    <input name="selling_price" type="number" class="form-control" placeholder="Enter selling  price" />
-                                </div>
+                                    <div class="input-group">
+                                        <input name="regurlar_price" type="number" class="form-control" placeholder="Enter regular  price" />
+                                        <input name="selling_price" type="number" class="form-control" placeholder="Enter selling  price" />
+                                    </div>
                             </div>
 
                             <div class="mb-3">
@@ -88,7 +88,7 @@
 
                             <div class="mb-3">
                                 <label for="long_description" class="form-label">Long Description</label>
-                                <textarea name="long_description" id="summernote"  style="height: 300px;" class="form-control" placeholder="Long Description"></textarea>
+                                <textarea name="long_description" id="summernote"  style="height: 30px; width: 20px" class="form-control" placeholder="Long Description"></textarea>
                             </div>
 
                             <div class="mb-3">
