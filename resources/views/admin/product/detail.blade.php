@@ -31,81 +31,74 @@
                                 </tr>
                                 <tr>
                                     <th>Product Category</th>
-                                    <td>{{$product->category_id}}</td>
+                                    <td>{{$product->category->name}}</td>
                                 </tr>
                                 <tr>
                                     <th>Product Sub Category</th>
-                                    <td>{{$product->sub_category_id}}</td>
+                                    <td>{{$product->subCategory->name}}</td>
                                 </tr>
                                 <tr>
                                     <th>Product Brand</th>
-                                    <td>{{$product->brand_id}}</td>
+                                    <td>{{$product->brand->name}}</td>
                                 </tr>
                                 <tr>
                                     <th>Product Unit</th>
-                                    <td>{{$product->unit_id}}</td>
+                                    <td>{{$product->unit->name}}</td>
                                 </tr>
                                 <tr>
                                     <th>Product Short Description</th>
                                     <td>{{$product->short_description}}</td>
                                 </tr>
                                 <tr>
-                                    <th>Product Id</th>
-                                    <td>{{$product->id}}</td>
+                                    <th>Product Long Description</th>
+                                    <td>{!! $product->long_description !!}</td>
                                 </tr>
                                 <tr>
-                                    <th>Product Id</th>
-                                    <td>{{$product->id}}</td>
+                                    <th>Product Image</th>
+                                    <td><img src="{{asset($product->image)}}" alt="" height="100"></td>
                                 </tr>
                                 <tr>
-                                    <th>Product Id</th>
-                                    <td>{{$product->id}}</td>
+                                    <th>Product Other Image</th>
+                                    <td>
+                                        @foreach($product->otherImages as $otherImage)
+                                        <img src="{{asset($otherImage->image)}}" alt="" height="100">
+                                        @endforeach
+                                    </td>
                                 </tr>
-
-                            </table>
-                        </div> <!-- end table-responsive-->
-
-                    </div> <!-- end card body-->
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class=".card-title">All Product Info</h4>
-                    </div>
-                    <div class="card-body">
-                        <div class="table-responsive-sm">
-                            <table class="table table-striped table-centered mb-0">
-                                <thead>
                                 <tr>
-                                    <th>Sl</th>
-                                    <th>Name</th>
-                                    <th>Stock Amount</th>
-                                    <th>Selling Price</th>
-                                    <th>Total Sale</th>
-                                    <th>Image</th>
-                                    <th>Action</th>
+                                    <th>Product Price</th>
+                                    <td><b>Regular Price: </b> {{$product->regurlar_price}},<b> Selling Price: </b> {{$product->selling_price}},</td>
                                 </tr>
-                                </thead>
-                                <tbody>
-                                @foreach($products as $product)
-                                    <tr>
-                                        <td>{{$loop->iteration}}</td>
-                                        <td>{{$product->name}}</td>
-                                        <td>{{$product->stock_amount}}</td>
-                                        <td>{{$product->selling_price}}</td>
-                                        <td>{{$product->sale_count}}</td>
-                                        <td>
-                                            <img src="{{asset($product->image)}}" alt="" height="50"/>
-                                        </td>
-                                        <td>
-                                            <a href="{{route('product.delail', ['id' => $product->id])}}" class="btn btn-success btn-sm"> Detail</a>
-                                            <a href="{{route('product.edit', ['id' => $product->id])}}" class="btn btn-success btn-sm"> Edit</a>
-                                            <a href="{{route('product.delete', ['id' => $product->id])}}" class="btn btn-success btn-sm"> Delete</a>
+                                <tr>
+                                    <th>Product Stock Amount</th>
+                                    <td>{{$product->stock_amount}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Product Meta Title</th>
+                                    <td>{{$product->meta_title}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Product Meta Description</th>
+                                    <td>{{$product->meta_description}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Product Total View</th>
+                                    <td>{{$product->hit_count}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Product Total Sale</th>
+                                    <td>{{$product->sales_count}}</td>
+                                </tr>
 
-                                        </td>
-                                    </tr>
-                                @endforeach
+                                <tr>
+                                    <th>Product Featured Status</th>
+                                    <td>{{$product->featured_status}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Product Publication Status</th>
+                                    <td>{{$product->status}}</td>
+                                </tr>
 
-                                </tbody>
                             </table>
                         </div> <!-- end table-responsive-->
 
