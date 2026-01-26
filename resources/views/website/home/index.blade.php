@@ -1,0 +1,2553 @@
+@extends('website.master')
+
+@section('body')
+    <section class="position-relative">
+        <div class="hero-one-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-section-one" style="background-image: url({{asset('/')}}website/assets/img/one-hero-img1.jpg);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="hero-content-one">
+                  <span>
+                    <i>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="#D9380C" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.9599 9.30499C21.9217 9.21462 21.8576 9.13751 21.7758 9.08327C21.694 9.02904 21.5981 9.00007 21.4999 8.99999H18.1149L20.3499 3.17999C20.3794 3.10388 20.3898 3.02171 20.3802 2.94066C20.3707 2.8596 20.3414 2.78212 20.2949 2.71499C20.249 2.64876 20.1877 2.59462 20.1163 2.55718C20.0449 2.51975 19.9656 2.50013 19.8849 2.49999H13.3349C13.2259 2.4943 13.118 2.52446 13.0277 2.58585C12.9374 2.64724 12.8697 2.7365 12.8349 2.83999L11.6399 6.49999H13.4999C13.6326 6.49999 13.7597 6.55267 13.8535 6.64644C13.9473 6.74021 13.9999 6.86738 13.9999 6.99999C13.9999 7.1326 13.9473 7.25978 13.8535 7.35355C13.7597 7.44731 13.6326 7.49999 13.4999 7.49999H11.3049L10.1349 11L9.80494 12L9.68994 12.34C9.66515 12.4152 9.65857 12.4952 9.67074 12.5734C9.68291 12.6517 9.71348 12.7259 9.75994 12.79C9.80595 12.8546 9.86668 12.9074 9.9371 12.9439C10.0075 12.9804 10.0856 12.9996 10.1649 13H12.7699L11.8099 15.5L11.4249 16.5L9.76494 20.82C9.73576 20.8956 9.7254 20.9772 9.73477 21.0577C9.74413 21.1383 9.77293 21.2153 9.81869 21.2822C9.86445 21.3491 9.9258 21.4039 9.99744 21.4419C10.0691 21.4798 10.1489 21.4998 10.2299 21.5C10.2969 21.5004 10.3633 21.4873 10.4252 21.4615C10.487 21.4358 10.543 21.3978 10.5899 21.35L21.8549 9.84999C21.9243 9.77968 21.9713 9.69039 21.99 9.5934C22.0087 9.49641 21.9982 9.39605 21.9599 9.30499Z"
+                            fill="#D9380C" />
+                        <path
+                            d="M6.5 6.5C6.36739 6.5 6.24021 6.55268 6.14645 6.64645C6.05268 6.74021 6 6.86739 6 7C6 7.13261 6.05268 7.25979 6.14645 7.35355C6.24021 7.44732 6.36739 7.5 6.5 7.5H11.305L11.64 6.5H6.5Z"
+                            fill="#D9380C" />
+                        <path
+                            d="M9.085 11H2.5C2.36739 11 2.24021 11.0527 2.14645 11.1464C2.05268 11.2402 2 11.3674 2 11.5C2 11.6326 2.05268 11.7598 2.14645 11.8536C2.24021 11.9473 2.36739 12 2.5 12H8.755L9.085 11Z"
+                            fill="#D9380C" />
+                        <path
+                            d="M10.74 15.5H4.5C4.36739 15.5 4.24021 15.5527 4.14645 15.6464C4.05268 15.7402 4 15.8674 4 16C4 16.1326 4.05268 16.2598 4.14645 16.3536C4.24021 16.4473 4.36739 16.5 4.5 16.5H10.355L10.74 15.5Z"
+                            fill="#D9380C" />
+                      </svg>
+                    </i>
+                    Top Trending
+                  </span>
+                                    <h1>Classic Elegant Style Women</h1>
+                                    <div>
+                                        <img src="{{asset('/')}}website/assets/img/icon-one.png" alt="img">
+                                        <p>Discover timeless elegance and modern sophistication with our curated collection of women's
+                                            fashion.
+                                        </p>
+                                    </div>
+                                    <a href="our-products.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Shop Now</span>
+                      <span class="text-two">Shop Now</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-section-one" style="background-image: url({{asset('/')}}website/assets/img/one-hero-img2.jpg);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="hero-content-one">
+                  <span>
+                    <i>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="#D9380C" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.9599 9.30499C21.9217 9.21462 21.8576 9.13751 21.7758 9.08327C21.694 9.02904 21.5981 9.00007 21.4999 8.99999H18.1149L20.3499 3.17999C20.3794 3.10388 20.3898 3.02171 20.3802 2.94066C20.3707 2.8596 20.3414 2.78212 20.2949 2.71499C20.249 2.64876 20.1877 2.59462 20.1163 2.55718C20.0449 2.51975 19.9656 2.50013 19.8849 2.49999H13.3349C13.2259 2.4943 13.118 2.52446 13.0277 2.58585C12.9374 2.64724 12.8697 2.7365 12.8349 2.83999L11.6399 6.49999H13.4999C13.6326 6.49999 13.7597 6.55267 13.8535 6.64644C13.9473 6.74021 13.9999 6.86738 13.9999 6.99999C13.9999 7.1326 13.9473 7.25978 13.8535 7.35355C13.7597 7.44731 13.6326 7.49999 13.4999 7.49999H11.3049L10.1349 11L9.80494 12L9.68994 12.34C9.66515 12.4152 9.65857 12.4952 9.67074 12.5734C9.68291 12.6517 9.71348 12.7259 9.75994 12.79C9.80595 12.8546 9.86668 12.9074 9.9371 12.9439C10.0075 12.9804 10.0856 12.9996 10.1649 13H12.7699L11.8099 15.5L11.4249 16.5L9.76494 20.82C9.73576 20.8956 9.7254 20.9772 9.73477 21.0577C9.74413 21.1383 9.77293 21.2153 9.81869 21.2822C9.86445 21.3491 9.9258 21.4039 9.99744 21.4419C10.0691 21.4798 10.1489 21.4998 10.2299 21.5C10.2969 21.5004 10.3633 21.4873 10.4252 21.4615C10.487 21.4358 10.543 21.3978 10.5899 21.35L21.8549 9.84999C21.9243 9.77968 21.9713 9.69039 21.99 9.5934C22.0087 9.49641 21.9982 9.39605 21.9599 9.30499Z"
+                            fill="#D9380C" />
+                        <path
+                            d="M6.5 6.5C6.36739 6.5 6.24021 6.55268 6.14645 6.64645C6.05268 6.74021 6 6.86739 6 7C6 7.13261 6.05268 7.25979 6.14645 7.35355C6.24021 7.44732 6.36739 7.5 6.5 7.5H11.305L11.64 6.5H6.5Z"
+                            fill="#D9380C" />
+                        <path
+                            d="M9.085 11H2.5C2.36739 11 2.24021 11.0527 2.14645 11.1464C2.05268 11.2402 2 11.3674 2 11.5C2 11.6326 2.05268 11.7598 2.14645 11.8536C2.24021 11.9473 2.36739 12 2.5 12H8.755L9.085 11Z"
+                            fill="#D9380C" />
+                        <path
+                            d="M10.74 15.5H4.5C4.36739 15.5 4.24021 15.5527 4.14645 15.6464C4.05268 15.7402 4 15.8674 4 16C4 16.1326 4.05268 16.2598 4.14645 16.3536C4.24021 16.4473 4.36739 16.5 4.5 16.5H10.355L10.74 15.5Z"
+                            fill="#D9380C" />
+                      </svg>
+                    </i>
+                    Top Trending
+                  </span>
+                                    <h1>Classic Elegant Style Women</h1>
+                                    <div>
+                                        <img src="{{asset('/')}}website/assets/img/icon-one.png" alt="img">
+                                        <p>Discover timeless elegance and modern sophistication with our curated collection of women's
+                                            fashion.
+                                        </p>
+                                    </div>
+                                    <a href="our-products.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Shop Now</span>
+                      <span class="text-two">Shop Now</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-section-one color-white" style="background-image: url({{asset('/')}}website/assets/img/one-hero-img3.jpg);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="hero-content-one">
+                  <span>
+                    <i>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="#D9380C" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.9599 9.30499C21.9217 9.21462 21.8576 9.13751 21.7758 9.08327C21.694 9.02904 21.5981 9.00007 21.4999 8.99999H18.1149L20.3499 3.17999C20.3794 3.10388 20.3898 3.02171 20.3802 2.94066C20.3707 2.8596 20.3414 2.78212 20.2949 2.71499C20.249 2.64876 20.1877 2.59462 20.1163 2.55718C20.0449 2.51975 19.9656 2.50013 19.8849 2.49999H13.3349C13.2259 2.4943 13.118 2.52446 13.0277 2.58585C12.9374 2.64724 12.8697 2.7365 12.8349 2.83999L11.6399 6.49999H13.4999C13.6326 6.49999 13.7597 6.55267 13.8535 6.64644C13.9473 6.74021 13.9999 6.86738 13.9999 6.99999C13.9999 7.1326 13.9473 7.25978 13.8535 7.35355C13.7597 7.44731 13.6326 7.49999 13.4999 7.49999H11.3049L10.1349 11L9.80494 12L9.68994 12.34C9.66515 12.4152 9.65857 12.4952 9.67074 12.5734C9.68291 12.6517 9.71348 12.7259 9.75994 12.79C9.80595 12.8546 9.86668 12.9074 9.9371 12.9439C10.0075 12.9804 10.0856 12.9996 10.1649 13H12.7699L11.8099 15.5L11.4249 16.5L9.76494 20.82C9.73576 20.8956 9.7254 20.9772 9.73477 21.0577C9.74413 21.1383 9.77293 21.2153 9.81869 21.2822C9.86445 21.3491 9.9258 21.4039 9.99744 21.4419C10.0691 21.4798 10.1489 21.4998 10.2299 21.5C10.2969 21.5004 10.3633 21.4873 10.4252 21.4615C10.487 21.4358 10.543 21.3978 10.5899 21.35L21.8549 9.84999C21.9243 9.77968 21.9713 9.69039 21.99 9.5934C22.0087 9.49641 21.9982 9.39605 21.9599 9.30499Z"
+                            fill="#D9380C" />
+                        <path
+                            d="M6.5 6.5C6.36739 6.5 6.24021 6.55268 6.14645 6.64645C6.05268 6.74021 6 6.86739 6 7C6 7.13261 6.05268 7.25979 6.14645 7.35355C6.24021 7.44732 6.36739 7.5 6.5 7.5H11.305L11.64 6.5H6.5Z"
+                            fill="#D9380C" />
+                        <path
+                            d="M9.085 11H2.5C2.36739 11 2.24021 11.0527 2.14645 11.1464C2.05268 11.2402 2 11.3674 2 11.5C2 11.6326 2.05268 11.7598 2.14645 11.8536C2.24021 11.9473 2.36739 12 2.5 12H8.755L9.085 11Z"
+                            fill="#D9380C" />
+                        <path
+                            d="M10.74 15.5H4.5C4.36739 15.5 4.24021 15.5527 4.14645 15.6464C4.05268 15.7402 4 15.8674 4 16C4 16.1326 4.05268 16.2598 4.14645 16.3536C4.24021 16.4473 4.36739 16.5 4.5 16.5H10.355L10.74 15.5Z"
+                            fill="#D9380C" />
+                      </svg>
+                    </i>
+                    Top Trending
+                  </span>
+                                    <h1>Classic Elegant Style Women</h1>
+                                    <div>
+                                        <img src="{{asset('/')}}website/assets/img/icon-one.png" alt="img">
+                                        <p>Discover timeless elegance and modern sophistication with our curated collection of women's
+                                            fashion.
+                                        </p>
+                                    </div>
+                                    <a href="our-products.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Shop Now</span>
+                      <span class="text-two">Shop Now</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-custom-arrow">
+                <div class="hero-next"><i class="fa-solid fa-arrow-left"></i></div>
+                <div class="hero-prev"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="sitewide">
+            <h3>40% Off Sitewide</h3>
+            <p>On Sale for the first time over use <span> code CYERAK</span></p>
+        </div>
+    </section>
+    <section class="gap">
+        <div class="container">
+            <div class="heading wow fadeInUp" data-wow-delay=".2s">
+                <span>Check out products of the day</span>
+                <h2>Elevate your lifestyle</h2>
+            </div>
+            <div class="product-elevate-slider swiper wow fadeInUp" data-wow-delay=".4s" >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product-elevate">
+                            <div class="product-elevate-style">
+                                <img src="{{asset('/')}}website/assets/img/product-elevate-1.jpg" alt="img">
+                                <div class="product-tags">
+                                    <span class="sale-tag">sale</span>
+                                    <span class="new-tag">new</span>
+                                </div>
+                                <div class="product-content">
+                                    <div class="product-rating">
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><span>4.9</span></li>
+                                        </ul>
+                                        <div class="d-flex align-items-center flex-wrap color-filter ps-2">
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel81" type="radio"
+                                                                           value="#DA6C6C" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #DA6C6C;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel82" type="radio"
+                                                                           value="#fff" checked="" name="radioNoLabel"><span style="background-color: #fff;"></span>
+                                            </div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel83" type="radio"
+                                                                           value="#5CC39F" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #5CC39F;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel84" type="radio"
+                                                                           value="#7391DC" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #7391DC;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel85" type="radio"
+                                                                           value="#FF5E5E" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #FF5E5E;"></span></div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="radioNoLabel10" type="radio" value="#7BEF68" checked=""
+                                                       name="radioNoLabel"><span style="background-color: rgb(123, 239, 104);">
+
+                        </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group product-size">
+                                        <div>
+                                            <input class="btn-check" id="btnradio101" type="radio" checked="" name="btnradio2">
+                                            <label class="btn" for="btnradio101">xs</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol02" type="radio" checked="" name="btnradio2">
+                                            <label class="btn" for="btnradiol02">s</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol03" type="radio" checked="" name="btnradio2">
+                                            <label class="btn" for="btnradiol03">m</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol04" type="radio" checked="" name="btnradio2">
+                                            <label class="btn" for="btnradiol04">l</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol05" type="radio" checked="" name="btnradio2">
+                                            <label class="btn" for="btnradiol05">xl</label>
+                                        </div>
+                                    </div>
+                                    <a href="product-details.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Add to Cart</span>
+                      <span class="text-two">Add to Cart</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-elevate-bottom">
+                                <div>
+                                    <h3><a href="product-details.html">VelvetBloom Midi Dress</a></h3>
+                                    <span class="price">$145.00 <del>$165.00</del></span>
+                                </div>
+                                <div class="wishlist">
+                                    <a href="wishlist.html">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-elevate">
+                            <div class="product-elevate-style">
+                                <img src="{{asset('/')}}website/assets/img/product-elevate-3.jpg" alt="img">
+                                <div class="product-tags">
+                                    <span class="new-tag">new</span>
+                                </div>
+                                <div class="product-content">
+                                    <div class="product-rating">
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><span>4.9</span></li>
+                                        </ul>
+                                        <div class="d-flex align-items-center flex-wrap color-filter ps-2">
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel11" type="radio"
+                                                                           value="#DA6C6C" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #DA6C6C;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel12" type="radio"
+                                                                           value="#fff" checked="" name="radioNoLabel"><span style="background-color: #fff;"></span>
+                                            </div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel13" type="radio"
+                                                                           value="#5CC39F" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #5CC39F;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel14" type="radio"
+                                                                           value="#7391DC" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #7391DC;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel15" type="radio"
+                                                                           value="#FF5E5E" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #FF5E5E;"></span></div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="radioNoLabel20" type="radio" value="#7BEF68" checked=""
+                                                       name="radioNoLabel"><span style="background-color: rgb(123, 239, 104);">
+
+                        </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group product-size">
+                                        <input class="btn-check" id="btnradio106" type="radio" checked="" name="btnradio3">
+                                        <label class="btn" for="btnradio106">xs</label>
+                                        <input class="btn-check" id="btnradiol07" type="radio" checked="" name="btnradio3">
+                                        <label class="btn" for="btnradiol07">s</label>
+                                        <input class="btn-check" id="btnradiol08" type="radio" checked="" name="btnradio3">
+                                        <label class="btn" for="btnradiol08">m</label>
+                                        <input class="btn-check" id="btnradiol09" type="radio" checked="" name="btnradio3">
+                                        <label class="btn" for="btnradiol09">l</label>
+                                        <input class="btn-check" id="btnradiol10" type="radio" checked="" name="btnradio3">
+                                        <label class="btn" for="btnradiol10">xl</label>
+                                    </div>
+                                    <a href="product-details.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Add to Cart</span>
+                      <span class="text-two">Add to Cart</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-elevate-bottom">
+                                <div>
+                                    <h3><a href="product-details.html">Short Denim jacket</a></h3>
+                                    <span class="price">$145.00</span>
+                                </div>
+                                <div class="wishlist">
+                                    <a href="wishlist.html">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-elevate">
+                            <div class="product-elevate-style">
+                                <img src="{{asset('/')}}website/assets/img/product-elevate-2.jpg" alt="img">
+                                <div class="product-content">
+                                    <div class="product-rating">
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><span>4.9</span></li>
+                                        </ul>
+                                        <div class="d-flex align-items-center flex-wrap color-filter ps-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="radioNoLabel21" type="radio" value="#DA6C6C" checked=""
+                                                       name="radioNoLabel"><span style="background-color: #DA6C6C;"></span>
+                                            </div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel22" type="radio"
+                                                                           value="#fff" checked="" name="radioNoLabel"><span style="background-color: #fff;"></span>
+                                            </div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel23" type="radio"
+                                                                           value="#5CC39F" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #5CC39F;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel24" type="radio"
+                                                                           value="#7391DC" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #7391DC;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel25" type="radio"
+                                                                           value="#FF5E5E" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #FF5E5E;"></span></div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="radioNoLabel30" type="radio" value="#7BEF68" checked=""
+                                                       name="radioNoLabel"><span style="background-color: rgb(123, 239, 104);">
+
+                        </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group product-size">
+                                        <div>
+                                            <input class="btn-check" id="btnradio111" type="radio" checked="" name="btnradio4">
+                                            <label class="btn" for="btnradio111">xs</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol12" type="radio" checked="" name="btnradio4">
+                                            <label class="btn" for="btnradiol12">s</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol13" type="radio" checked="" name="btnradio4">
+                                            <label class="btn" for="btnradiol13">m</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol14" type="radio" checked="" name="btnradio4">
+                                            <label class="btn" for="btnradiol14">l</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol15" type="radio" checked="" name="btnradio4">
+                                            <label class="btn" for="btnradiol15">xl</label>
+                                        </div>
+                                    </div>
+                                    <a href="product-details.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Add to Cart</span>
+                      <span class="text-two">Add to Cart</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-elevate-bottom">
+                                <div>
+                                    <h3><a href="product-details.html">GlowLayer Crop Top</a></h3>
+                                    <span class="price">$140.00</span>
+                                </div>
+                                <div class="wishlist">
+                                    <a href="wishlist.html">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-elevate">
+                            <div class="product-elevate-style">
+                                <img src="{{asset('/')}}website/assets/img/product-elevate-4.jpg" alt="img">
+                                <div class="product-tags">
+                                    <span class="sale-tag">sale</span>
+                                </div>
+                                <div class="product-content">
+                                    <div class="product-rating">
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><span>4.9</span></li>
+                                        </ul>
+                                        <div class="d-flex align-items-center flex-wrap color-filter ps-2">
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel31" type="radio"
+                                                                           value="#DA6C6C" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #DA6C6C;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel32" type="radio"
+                                                                           value="#fff" checked="" name="radioNoLabel"><span style="background-color: #fff;"></span>
+                                            </div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel33" type="radio"
+                                                                           value="#5CC39F" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #5CC39F;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel34" type="radio"
+                                                                           value="#7391DC" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #7391DC;"></span></div>
+                                            <div class="form-check"><input class="form-check-input" id="radioNoLabel35" type="radio"
+                                                                           value="#FF5E5E" checked="" name="radioNoLabel"><span
+                                                    style="background-color: #FF5E5E;"></span></div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="radioNoLabel40" type="radio" value="#7BEF68" checked=""
+                                                       name="radioNoLabel"><span style="background-color: rgb(123, 239, 104);">
+
+                        </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group product-size">
+                                        <div>
+                                            <input class="btn-check" id="btnradio119" type="radio" checked="" name="btnradio5">
+                                            <label class="btn" for="btnradio119">xs</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol20" type="radio" checked="" name="btnradio5">
+                                            <label class="btn" for="btnradiol20">s</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol21" type="radio" checked="" name="btnradio5">
+                                            <label class="btn" for="btnradiol21">m</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol22" type="radio" checked="" name="btnradio5">
+                                            <label class="btn" for="btnradiol22">l</label>
+                                        </div>
+                                        <div>
+                                            <input class="btn-check" id="btnradiol23" type="radio" checked="" name="btnradio5">
+                                            <label class="btn" for="btnradiol23">xl</label>
+                                        </div>
+                                    </div>
+                                    <a href="product-details.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Add to Cart</span>
+                      <span class="text-two">Add to Cart</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-elevate-bottom">
+                                <div>
+                                    <h3><a href="product-details.html">CloudFit Joggers</a></h3>
+                                    <span class="price">$125.00</span>
+                                </div>
+                                <div class="wishlist">
+                                    <a href="wishlist.html">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="side-heading">
+                <div class="heading two wow fadeInUp" data-wow-delay=".2s" >
+                    <span>Explore our diverse range of categories</span>
+                    <h2>Browse by Categories</h2>
+                </div>
+                <a href="product-details.html" class="theme-btn">
+          <span class="btn-wrap">
+            <span class="text-one">View all Categories</span>
+            <span class="text-two">View all Categories</span>
+          </span>
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="categorie-style-one">
+                        <figure>
+                            <img src="{{asset('/')}}website/assets/img/categories-img-1.jpg" alt="img">
+                        </figure>
+                        <div class="categorie-style-one-content">
+                            <h3>All products</h3>
+                            <p>Discover endless possibilities with our All Products</p>
+                            <ul>
+                                <li>
+                                    <a href="#">New Arrivals
+                                        <svg width="20" height="12" viewBox="0 0 20 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M19.8678 5.67962L15.3225 1.13423C15.1592 0.943571 14.8722 0.921344 14.6816 1.08466C14.4909 1.24794 14.4687 1.53489 14.632 1.72555C14.6472 1.74332 14.6638 1.75992 14.6816 1.77512L18.4497 5.54779H0.454523C0.203512 5.54779 0 5.7513 0 6.00235C0 6.2534 0.203512 6.45687 0.454523 6.45687H18.4497L14.6816 10.225C14.4909 10.3882 14.4687 10.6752 14.632 10.8659C14.7953 11.0565 15.0822 11.0787 15.2729 10.9154C15.2907 10.9002 15.3073 10.8836 15.3225 10.8659L19.8679 6.32047C20.0441 6.14325 20.0441 5.85692 19.8678 5.67962Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Trending Items <svg width="20" height="12" viewBox="0 0 20 12"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M19.8678 5.67962L15.3225 1.13423C15.1592 0.943571 14.8722 0.921344 14.6816 1.08466C14.4909 1.24794 14.4687 1.53489 14.632 1.72555C14.6472 1.74332 14.6638 1.75992 14.6816 1.77512L18.4497 5.54779H0.454523C0.203512 5.54779 0 5.7513 0 6.00235C0 6.2534 0.203512 6.45687 0.454523 6.45687H18.4497L14.6816 10.225C14.4909 10.3882 14.4687 10.6752 14.632 10.8659C14.7953 11.0565 15.0822 11.0787 15.2729 10.9154C15.2907 10.9002 15.3073 10.8836 15.3225 10.8659L19.8679 6.32047C20.0441 6.14325 20.0441 5.85692 19.8678 5.67962Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Brand Collection <svg width="20" height="12" viewBox="0 0 20 12"
+                                                                      xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M19.8678 5.67962L15.3225 1.13423C15.1592 0.943571 14.8722 0.921344 14.6816 1.08466C14.4909 1.24794 14.4687 1.53489 14.632 1.72555C14.6472 1.74332 14.6638 1.75992 14.6816 1.77512L18.4497 5.54779H0.454523C0.203512 5.54779 0 5.7513 0 6.00235C0 6.2534 0.203512 6.45687 0.454523 6.45687H18.4497L14.6816 10.225C14.4909 10.3882 14.4687 10.6752 14.632 10.8659C14.7953 11.0565 15.0822 11.0787 15.2729 10.9154C15.2907 10.9002 15.3073 10.8836 15.3225 10.8659L19.8679 6.32047C20.0441 6.14325 20.0441 5.85692 19.8678 5.67962Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="categorie-style-one">
+                        <figure>
+                            <img src="{{asset('/')}}website/assets/img/categories-img-2.jpg" alt="img">
+                        </figure>
+                        <div class="categorie-style-one-content">
+                            <h3>Women Shirts</h3>
+                            <p>Discover endless possibilities with our All Products</p>
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-sm-6">
+                            <div class="categorie-style-two hover-img">
+                                <figure>
+                                    <img src="{{asset('/')}}website/assets/img/categories-img-3.jpg" alt="img">
+                                </figure>
+                                <div class="categorie-style-two-content">
+                                    <h3><a href="#">women Pants</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="categorie-style-two hover-img">
+                                <figure>
+                                    <img src="{{asset('/')}}website/assets/img/categories-img-4.jpg" alt="img">
+                                </figure>
+                                <div class="categorie-style-two-content">
+                                    <h3><a href="#">Accessories</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gap g-4">
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="what-we-do">
+                        <i><svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_16216)">
+                                    <path
+                                        d="M44.3387 33.051C46.5533 29.6876 47.8444 25.6646 47.8444 21.3448C47.8444 9.5752 38.2688 0 26.4992 0C14.7295 0 5.15435 9.5752 5.15435 21.3448C5.15435 25.6646 6.44547 29.6876 8.65973 33.051L0.310547 45.2274L9.86431 43.4462L11.6459 53L19.5196 41.5166C21.708 42.276 24.0561 42.6897 26.4992 42.6897C28.9427 42.6897 31.2908 42.276 33.4788 41.5166L41.3529 53L43.1341 43.4462L52.6878 45.2274L44.3387 33.051ZM13.3341 45.0139L12.3624 39.8026L7.15147 40.7746L10.6678 35.6462C12.3519 37.5086 14.3596 39.0727 16.6005 40.251L13.3341 45.0139ZM8.27802 21.3448C8.27802 11.2978 16.4521 3.12366 26.4992 3.12366C36.5467 3.12366 44.7208 11.2978 44.7208 21.3448C44.7208 31.3923 36.5467 39.5664 26.4992 39.5664C16.4521 39.5664 8.27802 31.3923 8.27802 21.3448ZM40.6359 39.8026L39.6643 45.0139L36.3983 40.251C38.6392 39.0727 40.6469 37.5086 42.331 35.6462L45.8473 40.7742L40.6359 39.8026Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M22.6942 26.0326L17.6154 20.9543L15.4068 23.1629L22.6942 30.4502L37.5919 15.5528L35.3833 13.3442L22.6942 26.0326Z"
+                                        fill="#D9380C" />
+                                </g>
+                            </svg>
+                        </i>
+                        <div>
+                            <h3>Certified</h3>
+                            <p>Available certificates of authenticity</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="what-we-do">
+                        <i>
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_16207)">
+                                    <path
+                                        d="M23.7281 43.5764C23.4873 43.4913 23.242 43.4028 22.9964 43.3116V38.7486C23.6086 38.9526 24.011 39.238 24.0324 39.2535C24.548 39.639 25.279 39.5364 25.6683 39.0226C26.0591 38.5067 25.9579 37.7716 25.4419 37.3808C25.3799 37.3338 24.4173 36.62 22.9964 36.3251V35.364C22.9964 34.7169 22.4717 34.1921 21.8245 34.1921C21.1774 34.1921 20.6527 34.7169 20.6527 35.364V36.3172C20.4996 36.3492 20.3451 36.3872 20.1885 36.4342C18.658 36.8939 17.5145 38.2012 17.2038 39.8461C16.9195 41.3516 17.4045 42.8055 18.4692 43.6406C19.0231 44.075 19.7107 44.4717 20.6527 44.8903V50.8314C19.871 50.7675 19.3636 50.5689 18.5078 50.0091C17.966 49.6548 17.2399 49.8068 16.8856 50.3484C16.5314 50.8901 16.6832 51.6163 17.2249 51.9707C18.563 52.8459 19.4789 53.1116 20.6527 53.181V54.167C20.6527 54.8141 21.1774 55.3389 21.8245 55.3389C22.4717 55.3389 22.9964 54.8141 22.9964 54.167V53.0477C25.1776 52.5108 26.5764 50.6549 26.884 48.825C27.2824 46.4551 26.0438 44.395 23.7281 43.5764ZM19.9157 41.7966C19.5481 41.5082 19.3876 40.9133 19.507 40.281C19.6123 39.7234 19.9685 39.0592 20.6527 38.7579V42.2771C20.377 42.1227 20.1272 41.9625 19.9157 41.7966ZM24.5727 48.4364C24.4338 49.2618 23.8992 50.1341 22.9964 50.572V45.8052C24.7579 46.457 24.6492 47.9811 24.5727 48.4364Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M47.264 7.90772C47.5723 7.90772 47.8745 7.78244 48.0925 7.56436C48.3105 7.34627 48.4359 7.04404 48.4359 6.73584C48.4359 6.42646 48.3106 6.12529 48.0925 5.90744C47.8745 5.68947 47.5723 5.56396 47.264 5.56396C46.9558 5.56396 46.6534 5.68936 46.4356 5.90744C46.2176 6.12529 46.0921 6.42764 46.0921 6.73584C46.0921 7.04404 46.2175 7.34639 46.4356 7.56436C46.6534 7.78244 46.9558 7.90772 47.264 7.90772Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M59.971 23.9184C58.7341 18.453 56.0104 13.4231 52.0943 9.37252C51.6444 8.90717 50.9025 8.89475 50.4371 9.34463C49.9719 9.79451 49.9594 10.5364 50.4092 11.0018C53.2379 13.9275 55.3927 17.405 56.7443 21.1952C54.4704 19.9011 51.8883 19.2103 49.2199 19.2103C46.1135 19.2103 43.1246 20.1465 40.6024 21.8799C40.0228 16.1748 38.8581 11.0253 37.2734 7.21909C36.4555 5.25468 35.5988 3.80191 34.748 2.73597C37.3308 3.16921 39.8317 3.96011 42.2229 5.10292C42.8064 5.38182 43.5064 5.13479 43.7855 4.55085C44.0646 3.96702 43.8173 3.2673 43.2334 2.98828C39.0846 1.00547 34.6323 0 30 0C26.4225 0 22.917 0.609608 19.5809 1.81183C16.3572 2.97363 13.3658 4.66007 10.6899 6.82428C5.32847 11.1606 1.5425 17.2313 0.0291402 23.9184C-0.0845314 24.4203 0.142695 24.9377 0.589178 25.1937C1.03578 25.4497 1.59699 25.3843 1.97281 25.0327C4.36999 22.7893 7.49784 21.5539 10.7803 21.5539C14.064 21.5539 17.1924 22.7893 19.5895 25.0327C20.0402 25.4544 20.7402 25.4544 21.1909 25.0327C23.301 23.058 25.9779 21.8648 28.8283 21.6072V31.2395C26.7301 30.1488 24.3482 29.5312 21.8246 29.5312C13.4242 29.5312 6.59022 36.3652 6.59022 44.7655C6.59022 53.1659 13.4242 59.9999 21.8246 59.9999H46.6406C47.2877 59.9999 47.8125 59.4751 47.8125 58.828L47.8126 38.4375C47.8126 37.7904 47.2878 37.2657 46.6407 37.2657H35.0807C34.0854 35.5134 32.753 33.9766 31.1719 32.7444V21.6071C34.0222 21.8647 36.6991 23.0579 38.8092 25.0326C39.2599 25.4542 39.96 25.4542 40.4107 25.0326C42.8078 22.7892 45.9362 21.5538 49.2199 21.5538C52.5023 21.5538 55.6302 22.7892 58.0273 25.0326C58.25 25.241 58.5378 25.3488 58.8284 25.3488C59.0281 25.3488 59.2291 25.2978 59.411 25.1936C59.8576 24.9377 60.0847 24.4203 59.971 23.9184ZM45.4687 57.6561H29.9344C31.7515 56.5089 33.3103 54.9885 34.5026 53.203H45.4687V57.6561ZM36.9703 46.4063H45.4687V50.8593H35.7856C36.3942 49.4701 36.8017 47.9735 36.9703 46.4063ZM45.4689 39.6094V44.0625H37.042C36.971 42.5064 36.6655 41.0106 36.16 39.6094H45.4689ZM34.7152 44.7655C34.7152 51.8734 28.9324 57.6561 21.8246 57.6561C14.7167 57.6561 8.93397 51.8734 8.93397 44.7655C8.93397 37.6577 14.7167 31.8749 21.8246 31.8749C28.9324 31.8749 34.7152 37.6577 34.7152 44.7655ZM19.3977 21.8798C16.8755 20.1464 13.8867 19.2102 10.7803 19.2102C8.10826 19.2102 5.52323 19.9026 3.2471 21.2001C6.68866 11.4343 15.1033 4.41878 25.2533 2.73445C24.4022 3.8005 23.5451 5.25362 22.7268 7.21897C21.1419 11.0252 19.9773 16.1747 19.3977 21.8798ZM30 19.2102C27.0559 19.2102 24.2175 20.0513 21.7817 21.6148C22.353 16.3375 23.4368 11.6111 24.8904 8.11979C26.4188 4.44902 28.2812 2.34375 30 2.34375C31.7189 2.34375 33.5814 4.44902 35.1097 8.11979C36.5633 11.6111 37.6471 16.3375 38.2185 21.6148C35.7826 20.0513 32.9442 19.2102 30 19.2102Z"
+                                        fill="#D9380C" />
+                                </g>
+                            </svg>
+                        </i>
+                        <div>
+                            <h3>Secure Payment</h3>
+                            <p>Certified marketplace since 1994</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="what-we-do">
+                        <i>
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.0132 36.8374C41.7865 36.8385 41.5669 36.759 41.3934 36.6132L34.1802 30.7715C34.0668 30.6774 33.9755 30.5596 33.9128 30.4262C33.8501 30.2929 33.8176 30.1474 33.8176 30V13.8462C33.8176 13.5839 33.9218 13.3323 34.1072 13.1469C34.2927 12.9614 34.5443 12.8572 34.8066 12.8572C35.0689 12.8572 35.3204 12.9614 35.5059 13.1469C35.6914 13.3323 35.7956 13.5839 35.7956 13.8462V29.5319L42.6395 35.077C42.8023 35.2072 42.9198 35.3856 42.9752 35.5865C43.0306 35.7875 43.021 36.0009 42.9479 36.1961C42.8748 36.3914 42.7418 36.5585 42.568 36.6737C42.3942 36.7889 42.1885 36.8462 41.9802 36.8374H42.0132Z"
+                                    fill="#D9380C" />
+                                <path
+                                    d="M24.8769 40.8H13.8461C13.5838 40.8 13.3323 40.6958 13.1468 40.5104C12.9613 40.3249 12.8571 40.0733 12.8571 39.811C12.8571 39.5487 12.9613 39.2972 13.1468 39.1117C13.3323 38.9262 13.5838 38.822 13.8461 38.822H24.8769C25.1392 38.822 25.3908 38.9262 25.5762 39.1117C25.7617 39.2972 25.8659 39.5487 25.8659 39.811C25.8659 40.0733 25.7617 40.3249 25.5762 40.5104C25.3908 40.6958 25.1392 40.8 24.8769 40.8Z"
+                                    fill="#D9380C" />
+                                <path
+                                    d="M20.4 30.1846H1.83954C1.57723 30.1846 1.32568 30.0804 1.1402 29.8949C0.954724 29.7094 0.850525 29.4579 0.850525 29.1956C0.850525 28.9333 0.954724 28.6817 1.1402 28.4962C1.32568 28.3107 1.57723 28.2065 1.83954 28.2065H20.4C20.6623 28.2065 20.9138 28.3107 21.0993 28.4962C21.2848 28.6817 21.389 28.9333 21.389 29.1956C21.389 29.4579 21.2848 29.7094 21.0993 29.8949C20.9138 30.0804 20.6623 30.1846 20.4 30.1846Z"
+                                    fill="#D9380C" />
+                                <path
+                                    d="M13.3385 19.4504H6.74505C6.48275 19.4504 6.23119 19.3462 6.04572 19.1608C5.86024 18.9753 5.75604 18.7237 5.75604 18.4614C5.75604 18.1991 5.86024 17.9476 6.04572 17.7621C6.23119 17.5766 6.48275 17.4724 6.74505 17.4724H13.3385C13.6008 17.4724 13.8523 17.5766 14.0378 17.7621C14.2233 17.9476 14.3275 18.1991 14.3275 18.4614C14.3275 18.7237 14.2233 18.9753 14.0378 19.1608C13.8523 19.3462 13.6008 19.4504 13.3385 19.4504Z"
+                                    fill="#D9380C" />
+                                <path
+                                    d="M34.8066 48.7913C34.5443 48.7913 34.2927 48.6871 34.1072 48.5016C33.9218 48.3162 33.8176 48.0646 33.8176 47.8023V47.6045C33.8176 47.3422 33.9218 47.0906 34.1072 46.9052C34.2927 46.7197 34.5443 46.6155 34.8066 46.6155C35.0689 46.6155 35.3204 46.7197 35.5059 46.9052C35.6914 47.0906 35.7956 47.3422 35.7956 47.6045V47.8023C35.7956 48.0646 35.6914 48.3162 35.5059 48.5016C35.3204 48.6871 35.0689 48.7913 34.8066 48.7913Z"
+                                    fill="#D9380C" />
+                                <path
+                                    d="M53.2286 30.989H53.0308C52.7685 30.989 52.5169 30.8848 52.3314 30.6993C52.1459 30.5139 52.0417 30.2623 52.0417 30C52.0417 29.7377 52.1459 29.4861 52.3314 29.3007C52.5169 29.1152 52.7685 29.011 53.0308 29.011H53.2286C53.4909 29.011 53.7424 29.1152 53.9279 29.3007C54.1134 29.4861 54.2176 29.7377 54.2176 30C54.2176 30.2623 54.1134 30.5139 53.9279 30.6993C53.7424 30.8848 53.4909 30.989 53.2286 30.989Z"
+                                    fill="#D9380C" />
+                                <path
+                                    d="M11.7428 34.1934C11.5047 34.194 11.2745 34.108 11.095 33.9516C10.9155 33.7951 10.799 33.5788 10.767 33.3429C10.6149 32.2352 10.5422 31.118 10.5494 30C10.5494 29.7377 10.6536 29.4861 10.8391 29.3007C11.0246 29.1152 11.2761 29.011 11.5384 29.011C11.8008 29.011 12.0523 29.1152 12.2378 29.3007C12.4233 29.4861 12.5275 29.7377 12.5275 30C12.5276 31.0256 12.5981 32.05 12.7384 33.0659C12.7559 33.1965 12.7472 33.3292 12.7127 33.4563C12.6782 33.5834 12.6187 33.7023 12.5376 33.8061C12.4566 33.9099 12.3556 33.9965 12.2406 34.0607C12.1256 34.125 11.999 34.1656 11.8681 34.1802L11.7428 34.1934Z"
+                                    fill="#D9380C" />
+                                <path
+                                    d="M34.8066 54.2704C31.5446 54.2819 28.3143 53.6303 25.3119 52.3552C22.3095 51.0801 19.5975 49.2081 17.3406 46.8528C17.1902 46.6594 17.1169 46.4169 17.135 46.1725C17.1531 45.928 17.2613 45.699 17.4387 45.5299C17.6161 45.3607 17.85 45.2635 18.095 45.2569C18.34 45.2504 18.5787 45.3351 18.7648 45.4946C20.8379 47.6564 23.3291 49.3739 26.0869 50.5425C28.8447 51.7112 31.8114 52.3065 34.8066 52.2924C38.7799 52.2913 42.6806 51.2282 46.1051 49.2133C49.5296 47.1984 52.3533 44.3048 54.2839 40.8322C56.2146 37.3595 57.182 33.4339 57.0861 29.4618C56.9901 25.4897 55.8343 21.6154 53.7383 18.24C51.6422 14.8646 48.6821 12.1107 45.1643 10.2635C41.6466 8.41623 37.699 7.54276 33.7303 7.73346C29.7616 7.92416 25.916 9.17211 22.5916 11.3481C19.2672 13.5241 16.5847 16.5491 14.822 20.11C14.7048 20.3452 14.499 20.5242 14.2499 20.6076C14.0007 20.6911 13.7286 20.6722 13.4934 20.555C13.2582 20.4379 13.0792 20.2321 12.9957 19.9829C12.9122 19.7338 12.9312 19.4616 13.0483 19.2264C14.9676 15.3479 17.8887 12.0528 21.5093 9.68241C25.1298 7.31203 29.3182 5.9525 33.6407 5.74459C37.9631 5.53668 42.2626 6.48795 46.094 8.49991C49.9253 10.5119 53.1492 13.5114 55.4319 17.1878C57.7145 20.8643 58.973 25.0841 59.0769 29.4104C59.1809 33.7366 58.1265 38.012 56.0231 41.7938C53.9196 45.5757 50.8435 48.7266 47.1132 50.9202C43.3829 53.1138 39.1341 54.2705 34.8066 54.2704Z"
+                                    fill="#D9380C" />
+                                <path
+                                    d="M8.26814 40.8H6.46814C6.20584 40.8 5.95428 40.6958 5.7688 40.5104C5.58332 40.3249 5.47913 40.0733 5.47913 39.811C5.47913 39.5487 5.58332 39.2972 5.7688 39.1117C5.95428 38.9262 6.20584 38.822 6.46814 38.822H8.26814C8.53044 38.822 8.782 38.9262 8.96747 39.1117C9.15295 39.2972 9.25715 39.5487 9.25715 39.811C9.25715 40.0733 9.15295 40.3249 8.96747 40.5104C8.782 40.6958 8.53044 40.8 8.26814 40.8Z"
+                                    fill="#D9380C" />
+                                <path
+                                    d="M12.6462 23.5252C12.4796 23.5233 12.3162 23.4796 12.171 23.3981C12.0257 23.3167 11.9032 23.2001 11.8146 23.0591C11.726 22.918 11.6743 22.757 11.6641 22.5908C11.6538 22.4246 11.6855 22.2584 11.7561 22.1076L13.1275 19.2395C13.1833 19.1222 13.2617 19.017 13.3582 18.93C13.4547 18.8429 13.5674 18.7758 13.6899 18.7323C13.8123 18.6888 13.9421 18.6699 14.0719 18.6766C14.2017 18.6833 14.3288 18.7155 14.4462 18.7713C14.5635 18.8272 14.6687 18.9056 14.7557 19.0021C14.8427 19.0986 14.9099 19.2113 14.9533 19.3337C14.9968 19.4562 15.0157 19.586 15.009 19.7158C15.0023 19.8455 14.9701 19.9727 14.9143 20.09L13.5429 22.9648C13.4611 23.133 13.3337 23.2747 13.1751 23.3739C13.0165 23.473 12.8332 23.5254 12.6462 23.5252Z"
+                                    fill="#D9380C" />
+                            </svg>
+                        </i>
+                        <div>
+                            <h3>Quick Shipping</h3>
+                            <p>Free, Fast and reliable worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="what-we-do">
+                        <i>
+                            <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_16186)">
+                                    <path
+                                        d="M11.8385 46.2188H46.276C46.7765 46.2188 47.1823 45.8134 47.1823 45.3125V13.5938C47.1823 13.0928 46.7765 12.6875 46.276 12.6875H11.8385C11.338 12.6875 10.9323 13.0928 10.9323 13.5938V45.3125C10.9323 45.8134 11.338 46.2188 11.8385 46.2188ZM12.7448 14.5H25.4323V21.75C25.4323 22.0545 25.5854 22.3385 25.8398 22.5067C26.0934 22.6748 26.416 22.7031 26.6957 22.5828L29.0574 21.5703L31.4191 22.5828C31.5337 22.6325 31.6549 22.6562 31.7761 22.6562C31.9509 22.6562 32.1248 22.6058 32.2748 22.5067C32.5292 22.3386 32.6824 22.0545 32.6824 21.75V19.0312C32.6824 18.5303 32.2766 18.125 31.7761 18.125C31.2756 18.125 30.8699 18.5303 30.8699 19.0312V20.3756L29.4144 19.7516C29.1861 19.6543 28.9286 19.6543 28.7002 19.7516L27.2448 20.3756V14.5H30.8698V16.3125C30.8698 16.8134 31.2755 17.2188 31.776 17.2188C32.2765 17.2188 32.6823 16.8134 32.6823 16.3125V14.5H45.3698V44.4062H12.7448V14.5Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M56.5102 21.1093L55.8735 21.7465C52.7573 9.04925 41.7288 0 29.0572 0C15.8427 0 4.41547 9.8395 1.88522 23.3961C1.79324 23.8882 2.11756 24.3616 2.60966 24.4537C2.66585 24.4634 2.72203 24.4688 2.77697 24.4688C3.20484 24.4688 3.58546 24.1642 3.6668 23.7289C6.03721 11.0299 16.7153 1.8125 29.0572 1.8125C40.897 1.8125 51.2007 10.2975 54.1126 22.1989L52.9064 21.7969C52.4303 21.6367 51.9178 21.8951 51.7599 22.3695C51.6015 22.8447 51.8581 23.3581 52.333 23.5156L55.0517 24.4219C55.0545 24.4228 55.0572 24.4223 55.0599 24.4232C55.0636 24.4245 55.0666 24.427 55.0703 24.4281C55.1546 24.4541 55.2407 24.4658 55.3267 24.4668C55.3306 24.4668 55.3346 24.4688 55.3385 24.4688C55.361 24.4688 55.382 24.46 55.4044 24.4584C55.4662 24.4538 55.5271 24.4468 55.5865 24.4299C55.6193 24.4205 55.6488 24.4059 55.6803 24.3929C55.7298 24.3726 55.7776 24.3505 55.8232 24.3215C55.8546 24.3015 55.8825 24.2785 55.9113 24.2548C55.9334 24.2365 55.9588 24.2238 55.9793 24.2033L57.7918 22.3908C58.1458 22.0368 58.1458 21.4633 57.7918 21.1094C57.4378 20.7555 56.8642 20.7553 56.5102 21.1093Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M55.5049 33.5464C55.0079 33.4588 54.5397 33.7799 54.4477 34.2711C52.0772 46.9702 41.3992 56.1875 29.0572 56.1875C17.2174 56.1875 6.91367 47.7026 4.00178 35.8011L5.208 36.2031C5.30316 36.235 5.40001 36.25 5.49471 36.25C5.87443 36.25 6.22798 36.0102 6.35452 35.6305C6.51289 35.1553 6.2563 34.6419 5.78143 34.4844L3.06268 33.5782C3.0603 33.5774 3.05792 33.5781 3.05543 33.5773C3.05135 33.5759 3.04818 33.5732 3.0441 33.572C2.94441 33.5408 2.84235 33.5339 2.74096 33.5379C2.71151 33.539 2.68421 33.5432 2.65521 33.5472C2.57353 33.5584 2.49537 33.58 2.41947 33.6127C2.39783 33.6221 2.3754 33.6274 2.35456 33.6385C2.27526 33.6803 2.20038 33.7315 2.13513 33.7967L0.322632 35.6092C-0.0313721 35.9632 -0.0313721 36.5368 0.322632 36.8907C0.676636 37.2445 1.25018 37.2447 1.60407 36.8907L2.24082 36.2534C5.35719 48.9508 16.3857 58 29.0572 58C42.2717 58 53.6989 48.1605 56.2292 34.604C56.3213 34.1119 55.997 33.6383 55.5049 33.5464Z"
+                                        fill="#D9380C" />
+                                </g>
+                            </svg>
+                        </i>
+                        <div>
+                            <h3>Transparent</h3>
+                            <p>Hassle-free return policy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-elevate-section" style="background-color: #EEEEEE;">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="swiper img-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="{{asset('/')}}website/assets/img/img-slider-1.jpg" alt="img">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="{{asset('/')}}website/assets/img/img-slider-1.jpg" alt="img">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="{{asset('/')}}website/assets/img/img-slider-1.jpg" alt="img">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="heading two wow fadeInUp" data-wow-delay=".2s">
+                        <span>Explore our Collection</span>
+                        <h2>Denim Outfits</h2>
+                    </div>
+                    <div class="row g-sm-0 g-3 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product-elevate two">
+                                <div class="product-elevate-style">
+                                    <div class="color-chang-img">
+                                        <span>Color:</span>
+                                        <ul class="color-chang-list">
+                                            <li> <button type="button" data-toggle="tooltip" data-placement="bottom" title="black"> <img
+                                                        src="{{asset('/')}}website/assets/img/black-jacket.jpg" alt="black-jacket"> </button> </li>
+                                            <li> <button type="button" data-toggle="tooltip" data-placement="bottom" title="blue"> <img
+                                                        src="{{asset('/')}}website/assets/img/jacket-blue.jpg" alt="black-jacket"> </button> </li>
+                                        </ul>
+                                    </div>
+                                    <img src="{{asset('/')}}website/assets/img/product-elevate-5.png" alt="img">
+                                    <div class="product-tags">
+                                        <span class="sale-tag">SAVE 70%</span>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="btn-group product-size">
+                                            <div>
+                                                <input class="btn-check" id="btnradio130" type="radio" checked="" name="btnradio6">
+                                                <label class="btn" for="btnradio130">xs</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol31" type="radio" checked="" name="btnradio6">
+                                                <label class="btn" for="btnradiol31">s</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol32" type="radio" checked="" name="btnradio6">
+                                                <label class="btn" for="btnradiol32">m</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol33" type="radio" checked="" name="btnradio6">
+                                                <label class="btn" for="btnradiol33">l</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol34" type="radio" checked="" name="btnradio6">
+                                                <label class="btn" for="btnradiol34">xl</label>
+                                            </div>
+                                        </div>
+                                        <a href="product-details.html" class="theme-btn">
+                      <span class="btn-wrap">
+                        <span class="text-one">Add to Cart</span>
+                        <span class="text-two">Add to Cart</span>
+                      </span>
+                                        </a>
+                                        <span class="sold-last"><i class="fa-solid fa-fire-flame-curved"></i> sold in last 12 hours</span>
+                                    </div>
+                                </div>
+                                <div class="product-elevate-bottom">
+                                    <div>
+                                        <h3><a href="product-details.html">CloudFit Joggers</a></h3>
+                                        <span class="price">$125.00</span>
+                                    </div>
+                                    <div class="wishlist">
+                                        <a href="wishlist.html">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product-elevate two">
+                                <div class="product-elevate-style">
+                                    <div class="color-chang-img">
+                                        <span>Color:</span>
+                                        <ul class="color-chang-list">
+                                            <li> <button type="button" data-toggle="tooltip" data-placement="bottom" title="black"> <img
+                                                        src="{{asset('/')}}website/assets/img/black-jacket.jpg" alt="black-jacket"> </button> </li>
+                                            <li> <button type="button" data-toggle="tooltip" data-placement="bottom" title="blue"> <img
+                                                        src="{{asset('/')}}website/assets/img/jacket-blue.jpg" alt="black-jacket"> </button> </li>
+                                        </ul>
+                                    </div>
+                                    <img src="{{asset('/')}}website/assets/img/product-elevate-6.png" alt="img">
+                                    <div class="product-tags">
+                                        <span class="sale-tag">SAVE 70%</span>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="btn-group product-size">
+                                            <div>
+                                                <input class="btn-check" id="btnradio140" type="radio" checked="" name="btnradio8">
+                                                <label class="btn" for="btnradio140">xs</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol41" type="radio" checked="" name="btnradio8">
+                                                <label class="btn" for="btnradiol41">s</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol42" type="radio" checked="" name="btnradio8">
+                                                <label class="btn" for="btnradiol42">m</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol43" type="radio" checked="" name="btnradio8">
+                                                <label class="btn" for="btnradiol43">l</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol44" type="radio" checked="" name="btnradio8">
+                                                <label class="btn" for="btnradiol44">xl</label>
+                                            </div>
+                                        </div>
+                                        <a href="product-details.html" class="theme-btn">
+                      <span class="btn-wrap">
+                        <span class="text-one">Add to Cart</span>
+                        <span class="text-two">Add to Cart</span>
+                      </span>
+                                        </a>
+                                        <span class="sold-last"><i class="fa-solid fa-fire-flame-curved"></i> sold in last 12 hours</span>
+                                    </div>
+                                </div>
+                                <div class="product-elevate-bottom">
+                                    <div>
+                                        <h3><a href="product-details.html">Blue Baggy Jeans</a></h3>
+                                        <span class="price">$125.00</span>
+                                    </div>
+                                    <div class="wishlist">
+                                        <a href="wishlist-2.html">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product-elevate two">
+                                <div class="product-elevate-style">
+                                    <div class="color-chang-img">
+                                        <span>Color:</span>
+                                        <ul class="color-chang-list">
+                                            <li> <button type="button" data-toggle="tooltip" data-placement="bottom" title="black"> <img
+                                                        src="{{asset('/')}}website/assets/img/black-jacket.jpg" alt="black-jacket"> </button> </li>
+                                            <li> <button type="button" data-toggle="tooltip" data-placement="bottom" title="blue"> <img
+                                                        src="{{asset('/')}}website/assets/img/jacket-blue.jpg" alt="black-jacket"> </button> </li>
+                                        </ul>
+                                    </div>
+                                    <img src="{{asset('/')}}website/assets/img/product-elevate-7.png" alt="img">
+                                    <div class="product-content">
+                                        <div class="btn-group product-size">
+                                            <div>
+                                                <input class="btn-check" id="btnradio150" type="radio" checked="" name="btnradio9">
+                                                <label class="btn" for="btnradio150">xs</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol51" type="radio" checked="" name="btnradio9">
+                                                <label class="btn" for="btnradiol51">s</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol52" type="radio" checked="" name="btnradio9">
+                                                <label class="btn" for="btnradiol52">m</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol53" type="radio" checked="" name="btnradio9">
+                                                <label class="btn" for="btnradiol53">l</label>
+                                            </div>
+                                            <div>
+                                                <input class="btn-check" id="btnradiol54" type="radio" checked="" name="btnradio9">
+                                                <label class="btn" for="btnradiol54">xl</label>
+                                            </div>
+                                        </div>
+                                        <a href="product-details.html" class="theme-btn">
+                      <span class="btn-wrap">
+                        <span class="text-one">Add to Cart</span>
+                        <span class="text-two">Add to Cart</span>
+                      </span>
+                                        </a>
+                                        <span class="sold-last"><i class="fa-solid fa-fire-flame-curved"></i> sold in last 12 hours</span>
+                                    </div>
+                                </div>
+                                <div class="product-elevate-bottom">
+                                    <div>
+                                        <h3><a href="product-details.html">BoldShade Sunglasses</a></h3>
+                                        <span class="price">$125.00</span>
+                                    </div>
+                                    <div class="wishlist">
+                                        <a href="wishlist.html">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gap">
+        <div class="container">
+            <div class="heading wow fadeInUp" data-wow-delay=".2s">
+                <span>Buy Women's Fabric, Apparel</span>
+                <h2>Lookbook Collection</h2>
+            </div>
+            <div class="lookbook wow fadeInUp" data-wow-delay=".4s">
+                <img src="{{asset('/')}}website/assets/img/lookbook-img-1.jpg" alt="Fashion" class="main-image">
+                <ul class="lookbook-main">
+                    <li class="lookbook-tag">
+                        <div class="lookbook-dot"></div>
+                        <div class="product-info">
+                            <div class="product-info-style">
+                                <img src="{{asset('/')}}website/assets/img/brown-jacket.jpg" alt="Brown Jacket">
+                                <div>
+                                    <p>brown jacket</p>
+                                    <span class="price">
+                    $145.00
+                  </span>
+                                    <a href="product-details.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Add to Cart</span>
+                      <span class="text-two">Add to Cart</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="lookbook-tag active">
+                        <div class="lookbook-dot"></div>
+                        <div class="product-info">
+                            <div class="product-info-style">
+                                <img src="{{asset('/')}}website/assets/img/brown-jacket.jpg" alt="Brown Jacket">
+                                <div>
+                                    <p>brown jacket</p>
+                                    <span class="price">
+                    $145.00
+                  </span>
+                                    <a href="product-details.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Add to Cart</span>
+                      <span class="text-two">Add to Cart</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="lookbook-tag">
+                        <div class="lookbook-dot"></div>
+                        <div class="product-info">
+                            <div class="product-info-style">
+                                <img src="{{asset('/')}}website/assets/img/brown-jacket.jpg" alt="Brown Jacket">
+                                <div>
+                                    <p>brown jacket</p>
+                                    <span class="price">
+                    $145.00
+                  </span>
+                                    <a href="product-details.html" class="theme-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one">Add to Cart</span>
+                      <span class="text-two">Add to Cart</span>
+                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="gap no-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="heading two">
+                        <span>Shop By Category</span>
+                        <h2>There's more to explore</h2>
+                    </div>
+                    <div class="nav tab-style-one flex-column nav-pills" id="v-pills-tab" role="tablist"
+                         aria-orientation="vertical">
+                        <button class="pt-lg-0 nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                            <span>10 - </span>Dresses
+                        </button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+                                type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><span>04 -
+              </span>Tops</button>
+                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
+                                type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><span>12 - </span>
+                            Trousers </button>
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings"
+                                type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><span>14 - </span> Skirts
+                        </button>
+                        <button class="nav-link" id="v-pills-messages-tab2" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-messages2" type="button" role="tab" aria-controls="v-pills-messages2"
+                                aria-selected="false"><span>18 - </span> Shoes </button>
+                        <button class="nav-link" id="v-pills-settings-tab2" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-settings2" type="button" role="tab" aria-controls="v-pills-settings2"
+                                aria-selected="false"><span>21 - </span> Accessories </button>
+                    </div>
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="row g-4">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-1.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">SilkMuse Wrap new Skirt</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-2.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">Light Blue Baggy Jeans</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-3.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">BoldShade Sunglasses and Hat</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-4.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">CloudFit Relaxed Joggers</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-5.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">AuraTone Shoulder Blue Jacket</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-6.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">ModMuse Pleated Blazer</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="row g-4">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-1.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">SilkMuse Wrap new Skirt</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-2.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">Light Blue Baggy Jeans</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-3.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">BoldShade Sunglasses and Hat</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-4.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">CloudFit Relaxed Joggers</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-5.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">AuraTone Shoulder Blue Jacket</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-6.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">ModMuse Pleated Blazer</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <div class="row g-4">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-1.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">SilkMuse Wrap new Skirt</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-2.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">Light Blue Baggy Jeans</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-3.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">BoldShade Sunglasses and Hat</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-4.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">CloudFit Relaxed Joggers</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-5.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">AuraTone Shoulder Blue Jacket</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-6.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">ModMuse Pleated Blazer</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            <div class="row g-4">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-1.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">SilkMuse Wrap new Skirt</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-2.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">Light Blue Baggy Jeans</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-3.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">BoldShade Sunglasses and Hat</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-4.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">CloudFit Relaxed Joggers</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-5.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">AuraTone Shoulder Blue Jacket</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-6.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">ModMuse Pleated Blazer</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages2" role="tabpanel" aria-labelledby="v-pills-messages-tab2">
+                            <div class="row g-4">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-1.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">SilkMuse Wrap new Skirt</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-2.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">Light Blue Baggy Jeans</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-3.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">BoldShade Sunglasses and Hat</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-4.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">CloudFit Relaxed Joggers</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-5.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">AuraTone Shoulder Blue Jacket</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-6.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">ModMuse Pleated Blazer</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel" aria-labelledby="v-pills-settings-tab2">
+                            <div class="row g-4">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-1.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">SilkMuse Wrap new Skirt</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-2.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">Light Blue Baggy Jeans</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-3.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">BoldShade Sunglasses and Hat</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-4.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">CloudFit Relaxed Joggers</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-5.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">AuraTone Shoulder Blue Jacket</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="categorie-two-style">
+                                        <div>
+                                            <figure>
+                                                <img src="{{asset('/')}}website/assets/img/category-img-6.jpg" alt="img">
+                                            </figure>
+                                        </div>
+                                        <div class="categorie-two-content">
+                                            <ul class="star">
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><span>4.9</span></li>
+                                            </ul>
+                                            <h3><a href="product-details.html">ModMuse Pleated Blazer</a></h3>
+                                            <span>$145.00</span>
+                                            <a href="product-details.html">
+                                                <span>Add to cart</span>
+                                                <i>
+                                                    <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M8.18781 12.4546C8.79326 12.4546 9.28472 12.946 9.28472 13.5515C9.28472 14.1569 8.79326 14.6484 8.18781 14.6484C7.58235 14.6484 7.0909 14.1569 7.0909 13.5515C7.0909 12.946 7.58235 12.4546 8.18781 12.4546ZM12.9589 12.4546C13.5644 12.4546 14.0558 12.946 14.0558 13.5515C14.0558 14.1569 13.5644 14.6484 12.9589 14.6484C12.3534 14.6484 11.862 14.1569 11.862 13.5515C11.862 12.946 12.3534 12.4546 12.9589 12.4546ZM0.904352 1.49694H2.45399C2.75563 1.49694 3.02072 1.69821 3.10144 1.98948C3.10144 1.98948 3.10199 1.98948 3.10199 1.99003C3.62399 3.86912 4.75199 7.92948 5.27617 9.81567C5.52217 10.702 6.32944 11.3151 7.24853 11.3151H13.8714C14.8113 11.3151 15.6305 10.6753 15.858 9.7633C16.3194 7.91912 17.2358 4.25312 17.2358 4.25312C17.2865 4.04966 17.2407 3.83366 17.1114 3.66839C16.9822 3.50257 16.7842 3.40603 16.5742 3.40603H7.0909C6.71453 3.40603 6.40908 3.71148 6.40908 4.08785C6.40908 4.46421 6.71453 4.76966 7.0909 4.76966H15.7009L14.5347 9.43385C14.4589 9.73821 14.1851 9.95148 13.8714 9.95148H7.24853C6.94144 9.95148 6.67199 9.74639 6.58963 9.45076C6.06544 7.56457 4.93744 3.50366 4.41544 1.62457C4.17163 0.743664 3.36872 0.133301 2.45399 0.133301H0.904352C0.527989 0.133301 0.222534 0.438755 0.222534 0.815119C0.222534 1.19148 0.527989 1.49694 0.904352 1.49694Z"
+                                                              fill="#222222" />
+                                                    </svg>
+                                                </i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="marquee">
+        <div class="marquee-icon">
+            <div class="marquee-content">
+                <div class="marquee-item">
+                    <img src="{{asset('/')}}website/assets/img/star.png" alt="img">
+                    <h3>Fashion</h3>
+                </div>
+                <div class="marquee-item">
+                    <img src="{{asset('/')}}website/assets/img/star.png" alt="img">
+                    <h3>Clothes</h3>
+                </div>
+                <div class="marquee-item">
+                    <img src="{{asset('/')}}website/assets/img/star.png" alt="img">
+                    <h3>New Arrtival</h3>
+                </div>
+                <div class="marquee-item">
+                    <img src="{{asset('/')}}website/assets/img/star.png" alt="img">
+                    <h3>Trending</h3>
+                </div>
+            </div>
+            <div class="marquee-content">
+                <div class="marquee-item">
+                    <img src="{{asset('/')}}website/assets/img/star.png" alt="img">
+                    <h3>Fashion</h3>
+                </div>
+                <div class="marquee-item">
+                    <img src="{{asset('/')}}website/assets/img/star.png" alt="img">
+                    <h3>Clothes</h3>
+                </div>
+                <div class="marquee-item">
+                    <img src="{{asset('/')}}website/assets/img/star.png" alt="img">
+                    <h3>New Arrtival</h3>
+                </div>
+                <div class="marquee-item">
+                    <img src="{{asset('/')}}website/assets/img/star.png" alt="img">
+                    <h3>Trending</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section style="background-color: #F6F6F6;" class="gap customer-reviews-section">
+        <div class="container">
+            <div class="heading two wow fadeInUp" data-wow-delay=".2s">
+                <span>Testimonials & Reviews</span>
+                <h2>What Customer Says </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="customer-reviews">
+                        <div  class="swiper customer-reviews-img-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="review-img">
+                                        <img src="{{asset('/')}}website/assets/img/review-img-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-img">
+                                        <img src="{{asset('/')}}website/assets/img/review-img-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-img">
+                                        <img src="{{asset('/')}}website/assets/img/review-img-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-img">
+                                        <img src="{{asset('/')}}website/assets/img/review-img-4.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-img">
+                                        <img src="{{asset('/')}}website/assets/img/review-img-5.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-img">
+                                        <img src="{{asset('/')}}website/assets/img/review-img-6.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper customer-reviews-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="customer-review">
+                                        <h3>Danial Robert </h3>
+                                        <span>/ Excellence service and support</span>
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                        <p>"I had a fantastic shopping experience on Elegent theme! The layout is clean, and finding
+                                            products was super easy. The checkout process was smooth, and I received my order faster than
+                                            expected. Customer service was also very responsive. I’ll definitely shop here again!"</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="customer-review">
+                                        <h3>Danial Robert </h3>
+                                        <span>/ Excellence service and support</span>
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                        <p>"I had a fantastic shopping experience on Elegent theme! The layout is clean, and finding
+                                            products was super easy. The checkout process was smooth, and I received my order faster than
+                                            expected. Customer service was also very responsive. I’ll definitely shop here again!"</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="customer-review">
+                                        <h3>Danial Robert </h3>
+                                        <span>/ Excellence service and support</span>
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                        <p>"I had a fantastic shopping experience on Elegent theme! The layout is clean, and finding
+                                            products was super easy. The checkout process was smooth, and I received my order faster than
+                                            expected. Customer service was also very responsive. I’ll definitely shop here again!"</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="customer-review">
+                                        <h3>Danial Robert </h3>
+                                        <span>/ Excellence service and support</span>
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                        <p>"I had a fantastic shopping experience on Elegent theme! The layout is clean, and finding
+                                            products was super easy. The checkout process was smooth, and I received my order faster than
+                                            expected. Customer service was also very responsive. I’ll definitely shop here again!"</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="customer-review">
+                                        <h3>Danial Robert </h3>
+                                        <span>/ Excellence service and support</span>
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                        <p>"I had a fantastic shopping experience on Elegent theme! The layout is clean, and finding
+                                            products was super easy. The checkout process was smooth, and I received my order faster than
+                                            expected. Customer service was also very responsive. I’ll definitely shop here again!"</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="customer-review">
+                                        <h3>Danial Robert </h3>
+                                        <span>/ Excellence service and support</span>
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                        <p>"I had a fantastic shopping experience on Elegent theme! The layout is clean, and finding
+                                            products was super easy. The checkout process was smooth, and I received my order faster than
+                                            expected. Customer service was also very responsive. I’ll definitely shop here again!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="google-rating">
+                        <img src="{{asset('/')}}website/assets/img/google-icon.png" alt="img">
+                        <div>
+                            <h4>4.9 <span>Out of 5 Rating</span></h4>
+                            <ul class="star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new-collection hover-img">
+            <figure>
+                <img src="{{asset('/')}}website/assets/img/new-collection.jpg" alt="img">
+            </figure>
+            <div class="new-collection-off">
+                <span>Upto</span>
+                <h3>70% Off</h3>
+                <p>New Collection</p>
+                <a href="#">Limited Time Only</a>
+            </div>
+        </div>
+    </section>
+    <section class="gap">
+        <div class="container">
+            <div class="heading">
+                <span>Recent Articles</span>
+                <h2>Updates & Insights</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="blog-one hover-img">
+                        <div class="blog-one-img">
+                            <figure>
+                                <img src="{{asset('/')}}website/assets/img/blog-one-1.jpg" alt="img">
+                            </figure>
+                            <a href="#">Dec 14, 2025</a>
+                        </div>
+                        <h3><a href="blog-details.html">Behind the Brand: The Story of Sustainable Style</a></h3>
+                        <div class="blog-one-tag">
+                            <a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17.0711 12.9289C15.9819 11.8398 14.6855 11.0335 13.2711 10.5454C14.786 9.50199 15.7812 7.75578 15.7812 5.78125C15.7812 2.59348 13.1878 0 10 0C6.81223 0 4.21875 2.59348 4.21875 5.78125C4.21875 7.75578 5.21402 9.50199 6.72898 10.5454C5.31453 11.0335 4.01813 11.8398 2.92895 12.9289C1.0402 14.8177 0 17.3289 0 20H1.5625C1.5625 15.3475 5.34754 11.5625 10 11.5625C14.6525 11.5625 18.4375 15.3475 18.4375 20H20C20 17.3289 18.9598 14.8177 17.0711 12.9289ZM10 10C7.67379 10 5.78125 8.1075 5.78125 5.78125C5.78125 3.455 7.67379 1.5625 10 1.5625C12.3262 1.5625 14.2188 3.455 14.2188 5.78125C14.2188 8.1075 12.3262 10 10 10Z"
+                                        fill="#D9380C" />
+                                </svg> by admin</a>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.625 2.0625H1.375C0.9955 2.0625 0.6875 2.3705 0.6875 2.75V19.5938C0.6875 19.877 0.861437 20.131 1.12509 20.2342C1.20656 20.2658 1.29112 20.2812 1.375 20.2812C1.56372 20.2812 1.74831 20.2036 1.881 20.0592L5.47181 16.1562H20.625C21.0045 16.1562 21.3125 15.8483 21.3125 15.4688V2.75C21.3125 2.3705 21.0045 2.0625 20.625 2.0625ZM19.9375 14.7812H5.17C4.9775 14.7812 4.79428 14.8617 4.664 15.0033L2.0625 17.831V3.4375H19.9375V14.7812Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M8.42188 7.90625H13.5781C13.9576 7.90625 14.2656 7.59825 14.2656 7.21875C14.2656 6.83925 13.9576 6.53125 13.5781 6.53125H8.42188C8.04237 6.53125 7.73438 6.83925 7.73438 7.21875C7.73438 7.59825 8.04237 7.90625 8.42188 7.90625Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M8.42188 12.0312H13.5781C13.9576 12.0312 14.2656 11.7233 14.2656 11.3438C14.2656 10.9642 13.9576 10.6562 13.5781 10.6562H8.42188C8.04237 10.6562 7.73438 10.9642 7.73438 11.3438C7.73438 11.7233 8.04237 12.0312 8.42188 12.0312Z"
+                                        fill="#D9380C" />
+                                </svg>
+                                No Comment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="blog-one hover-img">
+                        <div class="blog-one-img">
+                            <figure>
+                                <img src="{{asset('/')}}website/assets/img/blog-one-2.jpg" alt="img">
+                            </figure>
+                            <a href="#">Dec 14, 2025</a>
+                        </div>
+                        <h3><a href="blog-details.html">From Catwalk to Cart: Where to Shop the Looks</a></h3>
+                        <div class="blog-one-tag">
+                            <a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17.0711 12.9289C15.9819 11.8398 14.6855 11.0335 13.2711 10.5454C14.786 9.50199 15.7812 7.75578 15.7812 5.78125C15.7812 2.59348 13.1878 0 10 0C6.81223 0 4.21875 2.59348 4.21875 5.78125C4.21875 7.75578 5.21402 9.50199 6.72898 10.5454C5.31453 11.0335 4.01813 11.8398 2.92895 12.9289C1.0402 14.8177 0 17.3289 0 20H1.5625C1.5625 15.3475 5.34754 11.5625 10 11.5625C14.6525 11.5625 18.4375 15.3475 18.4375 20H20C20 17.3289 18.9598 14.8177 17.0711 12.9289ZM10 10C7.67379 10 5.78125 8.1075 5.78125 5.78125C5.78125 3.455 7.67379 1.5625 10 1.5625C12.3262 1.5625 14.2188 3.455 14.2188 5.78125C14.2188 8.1075 12.3262 10 10 10Z"
+                                        fill="#D9380C" />
+                                </svg> by admin</a>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.625 2.0625H1.375C0.9955 2.0625 0.6875 2.3705 0.6875 2.75V19.5938C0.6875 19.877 0.861437 20.131 1.12509 20.2342C1.20656 20.2658 1.29112 20.2812 1.375 20.2812C1.56372 20.2812 1.74831 20.2036 1.881 20.0592L5.47181 16.1562H20.625C21.0045 16.1562 21.3125 15.8483 21.3125 15.4688V2.75C21.3125 2.3705 21.0045 2.0625 20.625 2.0625ZM19.9375 14.7812H5.17C4.9775 14.7812 4.79428 14.8617 4.664 15.0033L2.0625 17.831V3.4375H19.9375V14.7812Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M8.42188 7.90625H13.5781C13.9576 7.90625 14.2656 7.59825 14.2656 7.21875C14.2656 6.83925 13.9576 6.53125 13.5781 6.53125H8.42188C8.04237 6.53125 7.73438 6.83925 7.73438 7.21875C7.73438 7.59825 8.04237 7.90625 8.42188 7.90625Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M8.42188 12.0312H13.5781C13.9576 12.0312 14.2656 11.7233 14.2656 11.3438C14.2656 10.9642 13.9576 10.6562 13.5781 10.6562H8.42188C8.04237 10.6562 7.73438 10.9642 7.73438 11.3438C7.73438 11.7233 8.04237 12.0312 8.42188 12.0312Z"
+                                        fill="#D9380C" />
+                                </svg>
+                                No Comment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="blog-one hover-img mb-0">
+                        <div class="blog-one-img">
+                            <figure>
+                                <img src="{{asset('/')}}website/assets/img/blog-one-3.jpg" alt="img">
+                            </figure>
+                            <a href="#">Dec 14, 2025</a>
+                        </div>
+                        <h3><a href="blog-details.html">Leopard print skirts are back and better than ever</a></h3>
+                        <div class="blog-one-tag">
+                            <a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17.0711 12.9289C15.9819 11.8398 14.6855 11.0335 13.2711 10.5454C14.786 9.50199 15.7812 7.75578 15.7812 5.78125C15.7812 2.59348 13.1878 0 10 0C6.81223 0 4.21875 2.59348 4.21875 5.78125C4.21875 7.75578 5.21402 9.50199 6.72898 10.5454C5.31453 11.0335 4.01813 11.8398 2.92895 12.9289C1.0402 14.8177 0 17.3289 0 20H1.5625C1.5625 15.3475 5.34754 11.5625 10 11.5625C14.6525 11.5625 18.4375 15.3475 18.4375 20H20C20 17.3289 18.9598 14.8177 17.0711 12.9289ZM10 10C7.67379 10 5.78125 8.1075 5.78125 5.78125C5.78125 3.455 7.67379 1.5625 10 1.5625C12.3262 1.5625 14.2188 3.455 14.2188 5.78125C14.2188 8.1075 12.3262 10 10 10Z"
+                                        fill="#D9380C" />
+                                </svg> by admin</a>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.625 2.0625H1.375C0.9955 2.0625 0.6875 2.3705 0.6875 2.75V19.5938C0.6875 19.877 0.861437 20.131 1.12509 20.2342C1.20656 20.2658 1.29112 20.2812 1.375 20.2812C1.56372 20.2812 1.74831 20.2036 1.881 20.0592L5.47181 16.1562H20.625C21.0045 16.1562 21.3125 15.8483 21.3125 15.4688V2.75C21.3125 2.3705 21.0045 2.0625 20.625 2.0625ZM19.9375 14.7812H5.17C4.9775 14.7812 4.79428 14.8617 4.664 15.0033L2.0625 17.831V3.4375H19.9375V14.7812Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M8.42188 7.90625H13.5781C13.9576 7.90625 14.2656 7.59825 14.2656 7.21875C14.2656 6.83925 13.9576 6.53125 13.5781 6.53125H8.42188C8.04237 6.53125 7.73438 6.83925 7.73438 7.21875C7.73438 7.59825 8.04237 7.90625 8.42188 7.90625Z"
+                                        fill="#D9380C" />
+                                    <path
+                                        d="M8.42188 12.0312H13.5781C13.9576 12.0312 14.2656 11.7233 14.2656 11.3438C14.2656 10.9642 13.9576 10.6562 13.5781 10.6562H8.42188C8.04237 10.6562 7.73438 10.9642 7.73438 11.3438C7.73438 11.7233 8.04237 12.0312 8.42188 12.0312Z"
+                                        fill="#D9380C" />
+                                </svg>
+                                No Comment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-subscribers">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="heading two">
+                        <span>Subscribe Newsletter</span>
+                        <h2><span>Enjoy 15% off*</span> your first order when you sign up </h2>
+                    </div>
+                    <form class="subscribe">
+                        <input type="text" placeholder="Email Address.." name="email">
+                        <button>
+                            <i>
+                                <svg width="20" height="12" viewBox="0 0 20 12" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.8678 5.67962L15.3225 1.13423C15.1592 0.943571 14.8722 0.921344 14.6816 1.08466C14.4909 1.24794 14.4687 1.53489 14.632 1.72555C14.6472 1.74332 14.6638 1.75992 14.6816 1.77512L18.4497 5.54779H0.454523C0.203512 5.54779 0 5.7513 0 6.00235C0 6.2534 0.203512 6.45687 0.454523 6.45687H18.4497L14.6816 10.225C14.4909 10.3882 14.4687 10.6752 14.632 10.8659C14.7953 11.0565 15.0822 11.0787 15.2729 10.9154C15.2907 10.9002 15.3073 10.8836 15.3225 10.8659L19.8679 6.32047C20.0441 6.14325 20.0441 5.85692 19.8678 5.67962Z">
+                                    </path>
+                                </svg>
+                            </i>
+                        </button>
+                        <p>* New subscribers only. Discount excludes selected lines.</p>
+                    </form>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <div class="subscribers-img hover-img">
+                                <figure>
+                                    <img alt="img" src="{{asset('/')}}website/assets/img/subscribers-img-1.jpg">
+                                </figure>
+                            </div>
+                            <div class="subscribers-img hover-img">
+                                <figure>
+                                    <img alt="img" src="{{asset('/')}}website/assets/img/subscribers-img-2.jpg">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="subscribers-img hover-img">
+                                <figure>
+                                    <img alt="img" src="{{asset('/')}}website/assets/img/subscribers-img-3.jpg">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+@endsection
