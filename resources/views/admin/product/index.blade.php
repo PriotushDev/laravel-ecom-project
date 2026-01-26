@@ -40,7 +40,7 @@
                                                 <img src="{{asset($product->image)}}" alt="" height="50"/>
                                             </td>
                                             <td>
-                                                <a href="{{route('product.detail', ['id' => $product->id])}}" class="btn btn-success btn-sm"> Detail</a>
+                                                <a href="{{route('product.delail', ['id' => $product->id])}}" class="btn btn-success btn-sm"> Detail</a>
                                                 <a href="{{route('product.edit', ['id' => $product->id])}}" class="btn btn-success btn-sm"> Edit</a>
                                                 <a href="{{route('product.delete', ['id' => $product->id])}}" class="btn btn-success btn-sm"> Delete</a>
 

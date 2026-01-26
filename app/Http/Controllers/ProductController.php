@@ -50,4 +50,9 @@ class ProductController extends Controller
         otherImage::newOtherImage($request->file('other_image'), $productId);
         return back()->with('message','product add succssfully');
     }
+
+    public function delail($id)
+    {
+        return view('admin.product.detail', ['product' => Product::find($id)]);
+    }
 }
