@@ -7,7 +7,7 @@ use function BaconQrCode\Renderer\newImage;
 
 class OtherImage extends Model
 {
-    public static $otherImage, $image, $imageName, $extension, $directory, $imageUrl;
+    public static $otherImage, $image, $otherImages, $imageName, $extension, $directory, $imageUrl;
 
     public static function newOtherImage($images, $id)
     {
@@ -24,6 +24,24 @@ class OtherImage extends Model
             self::$otherImage->image        = self::$imageUrl;
             self::$otherImage->save();
         }
+    }
+
+    public static function updateOtherImage($images, $id)
+    {
+        self::$otherImages = OtherImage::where('product_id', $id)->get();
+
+        foreach (self::$otherImages as $otherImage)
+        {
+            //image delete from folder
+            if(file_exists($otherImage->image))
+            {
+                unlink($otherImage->image);
+            }
+            //image delete from database
+            $otherImage->delete();
+        }
+
+        self::newOtherImage($images, $id); // this is above code for upload image.
     }
 
 

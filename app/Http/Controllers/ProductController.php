@@ -66,4 +66,14 @@ class ProductController extends Controller
         ]);
     }
 
+    public  function update(Request $request, $id)
+    {
+        Product::updateProduct($request, $id);
+        if($images = $request->file('other_image')) //note: here other_image is form field other_image 'name' value.
+        {
+            OtherImage::updateOtherImage($images, $id);
+        }
+        return redirect('/product')->with('message', 'Product info update successfully.');
+    }
+
 }
