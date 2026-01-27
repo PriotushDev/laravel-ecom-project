@@ -10,13 +10,16 @@ use App\Http\Controllers\BrandController;
 use App\Http\Controllers\SubCategoryController;
 use App\Http\Controllers\UnitController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CartController;
 
 
 Route::get('/', [WebsiteController::class, 'index'])->name('website.home');
 Route::get('/product-category/{id}', [WebsiteController::class, 'category'])->name('website.category');
 Route::get('/product-detail/{id}', [WebsiteController::class, 'product'])->name('website.product');
 
-Route::get('/view-cart', [WebsiteController::class, 'viewCart'])->name('view.cart');
+//Cart Route
+Route::post('/add-to-cart/{id}', [CartController::class, 'addTocart'])->name('cart.add');
+Route::get('/show-cart', [CartController::class, 'showCart'])->name('cart.show');
 
 Route::get('/checkout-page', [CheckoutController::class, 'index'])->name('checkout.page');
 

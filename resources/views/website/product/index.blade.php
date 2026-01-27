@@ -113,19 +113,22 @@
                   </span>
                             </div>
                         </div>
-                        <div class="add-cart">
-                            <div class="wrap">
-                                <button type="button" class="sub">-</button>
-                                <input class="count" type="text" value="1">
-                                <button type="button" class="add">+</button>
+                        <form action="{{route('cart.add', $product->id)}}" method="post">
+                            @csrf
+                            <div class="add-cart">
+                                <div class="wrap">
+                                    <button type="button" class="sub">-</button>
+                                    <input class="count" name="qty" type="text" value="1">
+                                    <button type="button" class="add">+</button>
+                                </div>
+                                <button type="submit" class="theme-btn">
+                                <span class="btn-wrap">
+                                  <span class="text-one">Add to Cart</span>
+                                  <span class="text-two">Add to Cart</span>
+                                </span>
+                                </button>
                             </div>
-                            <a href="{{route('view.cart')}}" class="theme-btn">
-                <span class="btn-wrap">
-                  <span class="text-one">Add to Cart</span>
-                  <span class="text-two">Add to Cart</span>
-                </span>
-                            </a>
-                        </div>
+                        </form>
                         <div class="add-points">
                             <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i>Add to Compare</a>
                             <a href="#"><i class="fa-regular fa-heart"></i>Add to Wishlist</a>
