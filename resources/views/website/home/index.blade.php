@@ -316,32 +316,32 @@
             <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
                 <div class="categorie-style-one">
                     <figure>
-                        <img src="{{asset('/')}}website/assets/img/categories-img-2.jpg" alt="img">
+                        <img src="{{asset($home_categories[1]->image)}} " alt="img" class="w-100"/>
                     </figure>
                     <div class="categorie-style-one-content">
-                        <h3>Women Shirts</h3>
-                        <p>Discover endless possibilities with our All Products</p>
-                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        <h3> {{ $home_categories[0]->name }} </h3>
+                        <p> {{asset($home_categories[0]->description)}} </p>
+                        <a href="{{route('website.category', ['id' => $home_categories[0]->id])}}"><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="row mt-4">
                     <div class="col-sm-6">
                         <div class="categorie-style-two hover-img">
                             <figure>
-                                <img src="{{asset('/')}}website/assets/img/categories-img-3.jpg" alt="img">
+                                <img src="{{asset($home_categories[1]->image)}} " alt="img" class="w-100"/>
                             </figure>
                             <div class="categorie-style-two-content">
-                                <h3><a href="#">women Pants</a></h3>
+                                <h3><a href="{{route('website.category', ['id' => $home_categories[1]->id])}}"> {{ $home_categories[1]->name }} </a></h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="categorie-style-two hover-img">
                             <figure>
-                                <img src="{{asset('/')}}website/assets/img/categories-img-4.jpg" alt="img">
+                                <img src="{{asset($home_categories[2]->image)}} " alt="img" class="w-100"/>
                             </figure>
                             <div class="categorie-style-two-content">
-                                <h3><a href="#">Accessories</a></h3>
+                                <h3><a href="{{route('website.category', ['id' => $home_categories[2]->id])}}"> {{ $home_categories[2]->name }} </a></h3>
                             </div>
                         </div>
                     </div>
@@ -553,8 +553,8 @@
                             </div>
                             <div class="product-elevate-bottom">
                                 <div>
-                                    <h3><a href="product-details.html">CloudFit Joggers</a></h3>
-                                    <span class="price">$125.00</span>
+                                    <h3><a href=" {{route('website.product', ['id' => $product->id])}} "> {{$featuredProduct->name}} </a></h3>
+                                    <span class="price"> {{$featuredProduct->selling_price}} </span>
                                 </div>
                                 <div class="wishlist">
                                     <a href="wishlist.html">

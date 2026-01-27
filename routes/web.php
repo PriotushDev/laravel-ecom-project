@@ -23,13 +23,14 @@ Route::get('/checkout-page', [CheckoutController::class, 'index'])->name('checko
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',])->group(function () {
     Route::get('/dashboard',[DashboardController::class, 'index'])->name('dashboard');
 
-
+    //Categroy Route
     Route::get('/category-add', [CategoryController::class, 'index'])->name('category.add');
     Route::post('/category-store', [CategoryController::class, 'store'])->name('category.store');
     Route::get('/category-manage', [CategoryController::class, 'manage'])->name('category.manage');
     Route::get('/category-edit/{id}', [CategoryController::class, 'edit'])->name('category.edit');
     Route::post('/category-update/{id}', [CategoryController::class, 'update'])->name('category.update');
     Route::post('/category-delete/{id}', [CategoryController::class, 'delete'])->name('category.delete');
+    Route::get('/category-updateHomeStatus/{id}', [CategoryController::class, 'updateHomeStatus'])->name('category.updateHomeStatus');
 
     //Brand Route
     Route::get('/brand', [BrandController::class, 'index'])->name('brand.index');

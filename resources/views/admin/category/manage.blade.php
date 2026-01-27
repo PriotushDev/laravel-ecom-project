@@ -15,6 +15,7 @@
                         <h4 class=".card-title">Category Manage</h4>
                     </div>
                     <div class="card-body">
+                        <p class="text-center text-success">{{ session('message') }}</p>
                         <div class="table-responsive-sm">
                             <table class="table table-striped table-centered mb-0">
                                 <thead>
@@ -22,6 +23,7 @@
                                     <th>Sl</th>
                                     <th>Name</th>
                                     <th>Image</th>
+                                    <th>Home Status</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -34,7 +36,9 @@
                                         <img src="{{asset($category->image)}}" alt="table-user"
                                              class="me-2 rounded-circle" />
                                     </td>
+                                    <td> {{ $category->home_status == 1 ? 'Active' : 'Not Active' }} </td>
                                     <td>
+                                        <a href="{{route('category.updateHomeStatus', ['id' => $category->id])}}" class="text-reset fs-16 px-1" title="Edit">Update Status</a>
                                         <a href="{{route('category.edit', ['id' => $category->id])}}" class="text-reset fs-16 px-1" title="Edit"> <i
                                                 class="ri-edit-2-fill"></i></a>
                                         <a href="javascript:void(0)" onclick="event.preventDefault(); document.getElementById('CategoryDelete').submit();" class="text-reset fs-16 px-1" title="Delete"> <i

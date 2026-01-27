@@ -12,11 +12,14 @@ class WebsiteController extends Controller
     public function index()
     {
         $product = Product::where('status', 1)->latest()->get();
-        $featureProducts = Product::where(['status' => 1, 'featured_status' => 1])->latest()->take(3)->get();
+        $featureProducts = Product::where(['status' => 1, 'featured_status' => 1 ])->latest()->take(3)->get();
+        $homeCategories = Category::where(['status' => 1, 'home_status' => 1 ])->take(3)->get();
+
 
         return view('website.home.index', [
                 'products' => $product,
                 'feature_products' => $featureProducts,
+                'home_categories'   => $homeCategories,
             ]);
     }
 

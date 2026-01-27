@@ -81,4 +81,19 @@ class CategoryController extends Controller
 
         return redirect()->back()->with('success', 'Category Delete Successfully');
     }
+
+    public function updateHomeStatus($id)
+    {
+        $category = Category::find($id);
+        if($category->home_status == 1)
+        {
+            $category->home_status = 0;
+            $message = "Home Status info inactive successfully";
+        }else{
+            $category->home_status = 1;
+            $message = "Home Status info active successfully";
+        }
+        $category->save();
+        return back()->with('message', $message);
+    }
 }
