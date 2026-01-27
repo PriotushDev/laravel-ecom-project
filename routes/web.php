@@ -13,8 +13,8 @@ use App\Http\Controllers\ProductController;
 
 
 Route::get('/', [WebsiteController::class, 'index'])->name('website.home');
-Route::get('/product-category', [WebsiteController::class, 'category'])->name('website.category');
-Route::get('/product-detail', [WebsiteController::class, 'product'])->name('website.product');
+Route::get('/product-category/{id}', [WebsiteController::class, 'category'])->name('website.category');
+Route::get('/product-detail/{id}', [WebsiteController::class, 'product'])->name('website.product');
 
 Route::get('/view-cart', [WebsiteController::class, 'viewCart'])->name('view.cart');
 

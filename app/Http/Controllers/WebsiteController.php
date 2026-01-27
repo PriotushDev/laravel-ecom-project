@@ -3,23 +3,32 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Product;
 use Illuminate\Http\Request;
+use function Illuminate\Database\Query\latest;
 
 class WebsiteController extends Controller
 {
     public function index()
     {
-        return view('website.home.index');
+        $product = Product::where('status', 1)->latest()->get();
+        $featureProducts = Product::where(['status' => 1, 'featured_status' => 1])->latest()->take(3)->get();
+
+        return view('website.home.index', [
+                'products' => $product,
+                'feature_products' => $featureProducts,
+            ]);
     }
 
-    public function category()
+    public function category($id)
     {
-        return view('website.category.index');
+        $products = Product::where(['status' => 1, 'category_id' => $id])->latest()->get();
+        return view('website.category.index', ['products' => $products]);
     }
 
-    public function product()
+    public function product($id)
     {
-        return view('website.product.index');
+        return view('website.product.index', ['product' => Product::find($id)]);
     }
 
     public function viewCart()

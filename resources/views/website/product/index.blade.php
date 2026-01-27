@@ -29,22 +29,19 @@
                         <ul class="pd-imgs">
                             <li class="li-pd-imgs nav-active">
                                 <a href="JavaScript:void(0)">
-                                    <img alt="img" src="{{asset('/')}}website/assets/img/pd-gallery-img1.jpg">
+                                    <img alt="img" src="{{asset($product->image)}}">
                                 </a>
                             </li>
+                            @foreach($product->otherImages as $otherImage)
                             <li class="li-pd-imgs">
                                 <a href="JavaScript:void(0)">
-                                    <img alt="img" src="{{asset('/')}}website/assets/img/pd-gallery-img2.jpg">
+                                    <img alt="img" src="{{asset($otherImage->image)}}">
                                 </a>
                             </li>
-                            <li class="li-pd-imgs">
-                                <a href="JavaScript:void(0)">
-                                    <img alt="toys" src="{{asset('/')}}website/assets/img/pd-gallery-img3.jpg">
-                                </a>
-                            </li>
+                            @endforeach
                         </ul>
                         <div class="pd-main-img">
-                            <img id="NZoomImg" alt="img" src="{{asset('/')}}website/assets/img/pd-gallery-img1.jpg">
+                            <img id="NZoomImg" alt="img" src="{{asset($product->image)}}" class="w-100">
                         </div>
 
                     </div>
@@ -59,13 +56,13 @@
                             <li><i class="fa-solid fa-star"></i></li>
                             <li><span>(4.9)</span></li>
                         </ul>
-                        <h2>Short Denim jacket</h2>
-                        <span class="price">$145.00 </span>
+                        <h2> {{$product->name}} </h2>
+                        <span class="price"> TK. {{$product->selling_price}} </span>
                         <div class="key-points">
                             <span><i class="fa-solid fa-check"></i>Modern Look</span>
                             <span><i class="fa-solid fa-check"></i>High Quality Fabric</span>
                         </div>
-                        <h4>Hurry up, only 5 items left in stock.</h4>
+                        <h4>Hurry up, only {{$product->stock_amount}} items left in stock.</h4>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -158,50 +155,9 @@
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-home-5" role="tabpanel" aria-labelledby="v-pills-home-tab-5">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col">
                             <div class="description">
-                                <p>Add a dose of effortless cool to your wardrobe with our Short Denim Jacket — the perfect layering essential that never goes out of style. Designed with a cropped silhouette and tailored to flatter, this jacket blends timeless denim vibes with contemporary fashion-forward details.
-                                    <br><br>
-                                    Crafted from high-quality, breathable cotton denim, it offers just the right amount of structure while maintaining a soft, lived-in feel. Subtle distressing along the seams and hem adds a touch of vintage edge, making it your go-to piece for casual chic days or elevated streetwear looks.
-                                    <br><br>
-                                    Featuring classic button-down front closure, flap chest pockets, and buttoned cuffs, this jacket brings versatility to your style. Pair it with a flowy dress for a laid-back contrast, or throw it over a tee and high-waisted jeans for that effortlessly cool, off-duty model vibe.
-                                    Available in classic washes like Light Blue, Washed Black, and Off-White, this jacket is as easy to wear as it is to love. From brunch dates to breezy evenings out, this piece is your everyday layering hero — ready to be styled your way.</p>
-                                <h4>Product Features</h4>
-                                <ul class="list-style">
-                                    <li>Front chest pockets with flap detail</li>
-                                    <li>Button cuffs and front closure</li>
-                                    <li>Lightly distressed edges for a vintage touch</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="row g-lg-4 g-2">
-                                <div class="col-6">
-                                    <div class="hover-img">
-                                        <figure>
-                                            <img class="w-100" src="{{asset('/')}}website/assets/img/description-1.jpg" alt="description">
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="hover-img">
-                                        <figure>
-                                            <img class="w-100" src="{{asset('/')}}website/assets/img/description-2.jpg" alt="description">
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="video-img hover-img description">
-                                        <figure><img src="{{asset('/')}}website/assets/img/description-3.jpg" alt="img"></figure>
-                                        <a data-fancybox="" href="https://www.youtube.com/watch?v=xKxrkht7CpY">
-                                            <i>
-                                                <svg width="11" height="17" viewBox="0 0 11 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M11 8.49951L0.5 0.27227L0.5 16.7268L11 8.49951Z" fill="#000"></path>
-                                                </svg>
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
+                                {!! $product->long_description !!}
                             </div>
                         </div>
                     </div>

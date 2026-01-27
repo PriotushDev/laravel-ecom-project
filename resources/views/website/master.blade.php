@@ -150,7 +150,7 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             @foreach($categories as $category)
-                            <li><a class="dropdown-item" href="{{route('website.category')}}">{{$category->name}}</a></li>
+                            <li><a class="dropdown-item" href="{{route('website.category', ['id' => $category->id])}}">{{$category->name}}</a></li>
                             @endforeach
 
                         </ul>
