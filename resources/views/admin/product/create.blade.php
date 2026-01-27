@@ -16,7 +16,7 @@
                     </div>
                     <div class="card-body">
                         <p class="text-center text-success">{{session('message')}}</p>
-                        <form action="{{route('product.update', $product->id)}}" method="POST" enctype="multipart/form-data">
+                        <form action="{{route('product.store')}}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="mb-3">
                                 <label for="status" class="form-label">Category Name</label>

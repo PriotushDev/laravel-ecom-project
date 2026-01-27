@@ -113,7 +113,7 @@
                         <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <div class="product-elevate">
                                 <div class="product-elevate-style">
-                                    <img src="{{asset('$product->image')}}website/assets/img/product-elevate-1.jpg" alt="img" height="330">
+                                    <img src="{{asset($product->image)}}" alt="img" height="330">
                                     <div class="product-content">
                                         <span>Add Size</span>
                                         <div class="btn-group product-size">
@@ -154,7 +154,7 @@
                                 <div class="product-elevate-bottom">
                                     <div>
                                         <h3><a href="{{route('website.product', ['id' => $product->id])}}">{{$product->name}}</a></h3>
-                                        <span class="price">TK. {{$product->selling_price}}<del> TK. {{$product->regular_price}}</del></span>
+                                        <span class="price">TK. {{$product->selling_price}}<del> TK. {{$product->regurlar_price}}</del></span>
                                     </div>
                                 </div>
                             </div>
