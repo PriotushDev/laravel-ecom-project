@@ -32,6 +32,7 @@
                                     <th class="product-name">Product Detail</th>
                                     <th class="product-quantity">Quantity</th>
                                     <th class="product-subtotal">Total Price</th>
+                                    <th class="product-subtotal">Remove</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -60,6 +61,7 @@
                             <span class="woocommerce-Price-amount"><bdi><span class="woocommerce-Price-currencySymbol">TK. </span>{{$cart_product->price * $cart_product->qty}}</bdi>
                             </span>
                                     </td>
+                                    <td><a href=" {{ route('cart.remove', ['rowId' => $cart_product->rowId]) }}" class="btn btn-danger btn-sm" onclick="return confirm('Are sure remove product')">Remove</a></td>
                                 </tr>
                                 @endforeach
                                 </tbody>
@@ -96,10 +98,21 @@
                                     </td>
                                 </tr>
                                 <tr class="Shipping">
+                                    <th>Tax Amount:</th>
+                                    <td>
+                                  <span class="woocommerce-Price-amount amount">
+                                      Tk. 50
+                                  </span>
+                                    </td>
+                                </tr>
+                                <tr class="Shipping">
                                     <th>Shipping:</th>
                                     <td>
                                   <span class="woocommerce-Price-amount amount">
-                                      free
+                                      <div class="input-group">
+                                          <label for=""> <input type="radio" name="shipping_cost" checked value="60" /> Inside Dhaka (60) </label>
+                                          <label for=""> <input type="radio" name="shipping_cost" value="100" /> Outsite Dhaka (100) </label>
+                                      </div>
                                   </span>
                                     </td>
                                 </tr>

@@ -38,4 +38,11 @@ class CartController extends Controller
         Cart::update($rowId, $request->qty);
         return back()->with('message', 'update successfully');
     }
+
+    public function removeCart($rowId)
+    {
+        Cart::remove($rowId);
+        return back()->with('message', 'Remove successfully');
+
+    }
 }

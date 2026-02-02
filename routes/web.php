@@ -21,6 +21,7 @@ Route::get('/product-detail/{id}', [WebsiteController::class, 'product'])->name(
 Route::post('/add-to-cart/{id}', [CartController::class, 'addTocart'])->name('cart.add');
 Route::get('/show-cart', [CartController::class, 'showCart'])->name('cart.show');
 Route::post('/show-update/{rowId}', [CartController::class, 'updateCart'])->name('cart.update');
+Route::get('/cart-remove/{rowId}', [CartController::class, 'removeCart'])->name('cart.remove');
 
 //Checkout Route
 Route::get('/checkout-page', [CheckoutController::class, 'index'])->name('checkout.page');
