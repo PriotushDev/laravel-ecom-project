@@ -21,10 +21,11 @@
     </section>
     <section class="gap">
         <div class="container">
-            <form class="woocommerce-cart-form">
                 <div class="row">
                     <div class="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
                         <div style="overflow-x:auto;overflow-y: hidden;">
+                            {{-- message print form cardController update method --}}
+                            <p class="text-success text-center">{{session('message')}}</p>
                             <table class="shop_table table-responsive">
                                 <thead>
                                 <tr>
@@ -46,9 +47,13 @@
                                     </td>
                                     <td class="product-quantity">
                                         <div class="wrap">
-                                            <button type="button" class="sub">-</button>
-                                            <input class="count" name="qty" type="text" value="{{$cart_product->qty}}">
-                                            <button type="button" class="add">+</button>
+                                            <form action="{{ route('cart.update', $cart_product->rowId) }}" method="post">
+                                                @csrf
+                                                <div class="input-group">
+                                                    <input class="count" name="qty" type="number" value="{{$cart_product->qty}}">
+                                                    <input type="submit" class="btn btn-success btn-sm" value="Update">
+                                                </div>
+                                            </form>
                                         </div>
                                     </td>
                                     <td class="product-price">
@@ -127,7 +132,6 @@
                         </div>
                     </div>
                 </div>
-            </form>
         </div>
     </section>
 @endsection

@@ -32,4 +32,10 @@ class CartController extends Controller
 
         return view('website.cart.index', ['cart_products' => Cart::content() ]);
     }
+
+    public function updateCart( Request $request, $rowId)
+    {
+        Cart::update($rowId, $request->qty);
+        return back()->with('message', 'update successfully');
+    }
 }
