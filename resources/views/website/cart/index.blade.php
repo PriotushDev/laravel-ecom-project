@@ -36,6 +36,7 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                @php($sum = 0)
                                 @foreach($cart_products as $cart_product)
                                 <tr class="product">
                                     <td class="product-name">
@@ -63,6 +64,7 @@
                                     </td>
                                     <td><a href=" {{ route('cart.remove', ['rowId' => $cart_product->rowId]) }}" class="btn btn-danger btn-sm" onclick="return confirm('Are sure remove product')">Remove</a></td>
                                 </tr>
+                                    @php($sum = $sum + ($cart_product->price * $cart_product->qty));
                                 @endforeach
                                 </tbody>
                             </table>
@@ -92,16 +94,18 @@
                                     <td>
                                   <span class="woocommerce-Price-amount">
                                   <bdi>
-                                      <span class="woocommerce-Price-currencySymbol">$</span>250.00
+                                      <span class="woocommerce-Price-currencySymbol">Tk.</span>
+                                      <span id="subTotal"> {{ $sum }} </span>
                                   </bdi>
                                   </span>
                                     </td>
                                 </tr>
                                 <tr class="Shipping">
-                                    <th>Tax Amount:</th>
+                                    <th>Tax Amount (15%):</th>
                                     <td>
                                   <span class="woocommerce-Price-amount amount">
-                                      Tk. 50
+                                      <span id="taxAmount"> {{ $taxAmount = $sum * (0.15) }} </span>
+
                                   </span>
                                     </td>
                                 </tr>
@@ -121,7 +125,8 @@
                                     <td>
                                   <span class="woocommerce-Price-amount">
                                   <bdi>
-                                      <span>$</span>250.00
+                                      <span>Tk.</span>
+                                      <span id="totalPayble">{{$totalPayble = $sum + $taxAmount + 60}}</span>
                                   </bdi>
                                   </span>
                                     </td>

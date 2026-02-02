@@ -732,4 +732,15 @@
 <script src="{{asset('/')}}website/assets/js/wow.min.js"></script>
 <script src="{{asset('/')}}website/assets/js/jquery.countdown.min.js"></script>
 <script src="{{asset('/')}}website/assets/js/custom.js"></script>
+{{--shipping rate dynamic--}}
+<script>
+    $('input[name="shipping_cost"]').click(function(){
+
+        var subTotal = Number( $('#subTotal').text() );
+        var taxAmount = Number( $('#taxAmount').text() );
+        var shippingCost = Number(this.value);
+        var totalPayble = shippingCost + subTotal + taxAmount ;
+        $('#totalPayble').text(totalPayble);
+    });
+</script>
 </body>
