@@ -25,6 +25,8 @@ Route::get('/cart-remove/{rowId}', [CartController::class, 'removeCart'])->name(
 
 //Checkout Route
 Route::get('/checkout-page', [CheckoutController::class, 'index'])->name('checkout.page');
+Route::post('/checkout/new-order', [CheckoutController::class, 'newOrder'])->name('checkout.new.order');
+Route::get('/checkout/complete-order', [CheckoutController::class, 'completeOrder'])->name('checkout.complete.order');
 
 //Middleware Route
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',])->group(function () {

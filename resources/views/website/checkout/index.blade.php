@@ -21,7 +21,8 @@
     </section>
     <section class="gap woocommerce-cart-section">
         <div class="container">
-            <form class="woocommerce-checkout-form">
+            <form class="woocommerce-checkout-form" action="{{ route('checkout.new.order') }}" method="post">
+                @csrf
                 <div class="row">
                     <div class="col-lg-7 wow fadeInUp" data-wow-delay=".2s">
                         <div class="tab-content" id="v-pills-tabContent">
@@ -40,7 +41,7 @@
                                             <input type="number" name="mobile" placeholder="Phone Number">
                                         </div>
                                         <div class="col-lg-12">
-                                            <input type="text" name="address" placeholder="Delivery Address">
+                                            <input type="text" name="delivery_address" placeholder="Delivery Address">
                                         </div>
                                     </div>
                                 </div>
