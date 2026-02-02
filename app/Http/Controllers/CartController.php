@@ -19,6 +19,8 @@ class CartController extends Controller
             'weight'    => 550,
             'options'   => [
                 'image'  => $product->image,
+                'category' => $product->category->name,
+                'brand' => $product->brand->name,
             ]
         ]);
         return redirect('/show-cart')->with('message', 'Product info save to cart successfully.');

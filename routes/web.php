@@ -21,8 +21,10 @@ Route::get('/product-detail/{id}', [WebsiteController::class, 'product'])->name(
 Route::post('/add-to-cart/{id}', [CartController::class, 'addTocart'])->name('cart.add');
 Route::get('/show-cart', [CartController::class, 'showCart'])->name('cart.show');
 
+//Checkout Route
 Route::get('/checkout-page', [CheckoutController::class, 'index'])->name('checkout.page');
 
+//Middleware Route
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',])->group(function () {
     Route::get('/dashboard',[DashboardController::class, 'index'])->name('dashboard');
 
@@ -71,6 +73,7 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',
     Route::post('/product/update/{id}', [ProductController::class, 'update'])->name('product.update');
     Route::get('/product/delete/{id}', [ProductController::class, 'delete'])->name('product.delete');
 
+    //cus
 
 
 });
