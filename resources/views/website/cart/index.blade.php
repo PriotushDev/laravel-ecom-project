@@ -126,13 +126,20 @@
                                   <span class="woocommerce-Price-amount">
                                   <bdi>
                                       <span>Tk.</span>
-                                      <span id="totalPayble">{{$totalPayble = $sum + $taxAmount + 60}}</span>
+                                      <span id="totalPayble">{{$totalPayable = $sum + $taxAmount + 60}}</span>
                                   </bdi>
                                   </span>
                                     </td>
                                 </tr>
                                 </tbody>
                             </table>
+
+                            <?php
+                                Session::put('order_total', $totalPayable);
+                                Session::put('tax_total', $taxAmount);
+                                Session::put('shipping_total', 60);
+                            ?>
+
                             <div class="wc-proceed-to-checkout">
                                 <a href="{{route('checkout.page')}}" class="theme-btn">
                         <span class="btn-wrap">

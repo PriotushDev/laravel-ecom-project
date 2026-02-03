@@ -226,7 +226,7 @@
                             <ul class="sub-menu">
                                 <li><a href="about.html">about</a></li>
                                 <li><a href="faq.html">faq</a></li>
-                                <li><a href="my-account.html">my account</a></li>
+                                <li><a href="#">my account</a></li>
                                 <li><a href="404.html">404</a></li>
                             </ul>
                         </li>
@@ -275,7 +275,12 @@
                                     fill="black" />
                             </svg>
                         </i>
-                        <a href="my-account.html">My Account</a>
+                        @if( session('customer_id') )
+                            <a href="{{ route('website.login') }}">My Dashboard</a>
+                            <a href="{{ route('website.login') }}">Logout</a>
+                        @else
+                            <a href="{{ route('website.login') }}">My Account</a>
+                        @endif
                     </div>
                 </div>
             </div>

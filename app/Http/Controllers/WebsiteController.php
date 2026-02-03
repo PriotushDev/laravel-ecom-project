@@ -38,4 +38,9 @@ class WebsiteController extends Controller
     {
         return view('website.cart.view-cart');
     }
+
+    public function login()
+    {
+        return view('website.auth.index');
+    }
 }

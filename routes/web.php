@@ -16,6 +16,7 @@ use App\Http\Controllers\CartController;
 Route::get('/', [WebsiteController::class, 'index'])->name('website.home');
 Route::get('/product-category/{id}', [WebsiteController::class, 'category'])->name('website.category');
 Route::get('/product-detail/{id}', [WebsiteController::class, 'product'])->name('website.product');
+Route::get('/customer/login', [WebsiteController::class, 'login'])->name('website.login');
 
 //Cart Route
 Route::post('/add-to-cart/{id}', [CartController::class, 'addTocart'])->name('cart.add');
